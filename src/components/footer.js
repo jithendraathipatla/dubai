@@ -11,7 +11,7 @@ const footer = () => {
         <div>
           <TitleComponent title="Quick Links" />
           <ul>
-            <li>lkdjf</li>
+            <li>jklkhkjhk kjhjkhkj kjhkjh jhf lkdjf lkdjf</li>
             <li>lkdjf</li>
             <li>lkdjf</li>
             <li>lkdjf</li>
@@ -73,19 +73,19 @@ const last = css`
   margin-left:40px;
   svg {
     color: white;
-    font-size: 30px;
+    font-size: 33px;
     padding-right: 10px;
-    margin-left: 7px;
+    margin-left: 10px;
   }
 `
 
 const main = css`
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-columns: 4fr 2fr 2fr 3fr;
   background: no-repeat padding-box #1e1e1e;
   color: #b6b6b6;
   grid-gap: 30px;
-  padding: 10px 40px;
+  padding: 10px 50px;
   div{
     margin-left:10px;
     ul{

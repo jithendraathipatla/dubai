@@ -631,7 +631,7 @@ pre tt:after {
 }
 
 .slick-prev, .slick-next {
-  background: black;
+  background: black !important;
 }
 
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
@@ -639,6 +639,5 @@ pre tt:after {
 }
 
 .slick-dots {
-
   position: unset;
 }
