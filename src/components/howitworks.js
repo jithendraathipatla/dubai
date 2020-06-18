@@ -8,10 +8,12 @@ import { FiChevronRight } from "react-icons/fi"
 
 const HowitWorks = () => {
   return (
-    <>
-      <div style={{ textAlign: "center" }}>
-        <Titlecomponent title="How it Works ?" />
-      </div>
+      <>
+    <div style={{ textAlign: "center" }}>
+    <Titlecomponent title="How it Works ?" />
+  </div>
+    <div css={main}>
+      
       <div css={content}>
         <div>
           <GiTeamIdea />
@@ -35,14 +37,20 @@ const HowitWorks = () => {
           <h2>Book an appointment and start the session</h2>
         </div>
       </div>
+    </div>
     </>
   )
 }
 
 export default HowitWorks
 
+const main = css`
+margin: 0px 4%;
+padding:30px;
+box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
+`
+
 const content = css`
-  margin: 0px 4%;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
   div {
@@ -76,7 +84,7 @@ const content = css`
 
 const right = css`
   position: absolute;
-  top: 70%;
+  top: 40%;
   right: -17px;
   width: 7.5%;
   svg {
