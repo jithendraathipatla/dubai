@@ -36,21 +36,19 @@ const ValidationSchemaExample = () => (
         <div className="field">
         <label class="label">Name</label>
           <Field name="firstName" className={errors.firstName ? "input is-danger" : "input"} />
-          {errors.firstName && touched.firstName ? (
-            <p className="help is-danger">{errors.firstName}</p>
-          ) : null}
           </div>
           <div className="field">
           <label class="label">Phone Number</label>
           <Field name="lastName" className={errors.lastName ? "input is-danger" : "input"}/>
-          {errors.lastName && touched.lastName ? (
-            <p className="help is-danger">{errors.lastName}</p>
-          ) : null}
+         
           </div>
           <div class="field">
           <label class="label">Email</label>
           <Field name="email" type="email" className={errors.email ? "input is-danger" : "input"}/>
-          {errors.email && touched.email ? <p className="help is-danger">{errors.email}</p> : null}
+          </div>
+          <div class="field">
+          <label class="label">Message</label>
+          <textarea name="message" type="text" className="textarea"/>
           </div>
           <button type="submit" className="button is-link">Submit</button>
         </Form>
@@ -63,5 +61,7 @@ export default ValidationSchemaExample;
 
 const one= css`
  box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.2);
- padding: 10px;
+ padding: 20px;
+ border-radius: 5px;
+ margin: 0px 3px;
 `

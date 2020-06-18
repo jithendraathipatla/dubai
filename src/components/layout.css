@@ -620,3 +620,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.awssld__bullets {
+  display: none !important;
+}
+
+.awssld__content > img,{
+  object-fit: contain;
+}

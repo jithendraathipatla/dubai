@@ -11,8 +11,6 @@ const Header = () => {
      <div css={two}>
      <span><Link to='/'>home</Link></span>
      <span><Link to='/contact'>Contact</Link></span>
-    
-
      </div>
     </div>
   )
@@ -34,9 +32,9 @@ const two = css`
 const abx = css`
 position: fixed;
 padding: 25px 1%;
-margin: 0px 1%;
+margin: 0px 2%;
 z-index: 99;
-width: 97.7%;
+width: 95.7%;
 background: white;
 border-bottom-right-radius: 25px;
 border-bottom-left-radius: 25px;

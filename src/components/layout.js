@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
       >
-        <main style={{paddingTop:"7%"}}>{children}</main>
+        <main style={{paddingTop:"2%"}}>{children}</main>
         <FooterComponent/>
       </div>
     </>
