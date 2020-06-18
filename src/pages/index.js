@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import {css} from '@emotion/core'
 import SEO from "../components/seo"
 import Slidercomponent from "../components/slider"
+import MentorsCOmponent from '../components/image'
 
 const IndexPage = () => (
   <Layout>
@@ -36,7 +37,9 @@ const IndexPage = () => (
        …… Which is why you need a Mentor</span>
       </div>
     </div>
-    <hr/>
+    <br/>
+    <MentorsCOmponent/>
+    <br/>
     </div>
   </Layout>
 )

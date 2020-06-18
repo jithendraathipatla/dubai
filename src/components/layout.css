@@ -629,3 +629,16 @@ pre tt:after {
   object-fit: contain !important;
   background: white;
 }
+
+.slick-prev, .slick-next {
+  background: black;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  background: rgb(56, 53, 53) !important;
+}
+
+.slick-dots {
+
+  position: unset;
+}
