@@ -9,7 +9,11 @@ const Header = () => {
      <h1>logo</h1>
      </div>
      <div css={two}>
-     <span><Link to='/'>home</Link></span>
+     <span><Link to='/'>Home</Link></span>
+     <span><Link to='/contact'>Find a Mentor</Link></span>
+     <span><Link to='/contact'>FAQ's</Link></span>
+     <span><Link to='/contact'>Blogs</Link></span>
+     <span><Link to='/contact'>Events and Workshops</Link></span>
      <span><Link to='/contact'>Contact</Link></span>
      </div>
     </div>
@@ -22,7 +26,7 @@ const two = css`
  span{
    a{
     margin-left: 34px;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 0.5px;
    }
  }
