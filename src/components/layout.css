@@ -625,6 +625,7 @@ pre tt:after {
   display: none !important;
 }
 
-.awssld__content > img,{
-  object-fit: contain;
+.awssld__content > img{
+  object-fit: contain !important;
+  background: white;
 }

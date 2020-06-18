@@ -30,8 +30,9 @@ const HowitWorks = () => {
 export default HowitWorks;
 
 const content = css`
-  margin: 0px 3%;
+  margin: 0px 5%;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
+  border: 1px solid #363636;
 
 `
