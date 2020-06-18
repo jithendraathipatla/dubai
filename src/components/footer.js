@@ -70,10 +70,12 @@ const lastl = css`
 
 const last = css`
   display: flex;
+  margin-left:40px;
   svg {
     color: white;
     font-size: 30px;
     padding-right: 10px;
+    margin-left: 7px;
   }
 `
 
@@ -84,4 +86,11 @@ const main = css`
   color: #b6b6b6;
   grid-gap: 30px;
   padding: 10px 40px;
+  div{
+    margin-left:10px;
+    ul{
+      margin-left:10px;
+    }
+  }
+  
 `

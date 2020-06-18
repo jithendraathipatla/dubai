@@ -6,6 +6,7 @@ import {css} from '@emotion/core'
 import SEO from "../components/seo"
 import Slidercomponent from "../components/slider"
 import MentorsCOmponent from '../components/image'
+import IndustriesandSpecializationcomponent from '../components/specilizationindustries'
 
 const IndexPage = () => (
   <Layout>
@@ -40,6 +41,7 @@ const IndexPage = () => (
     <br/>
     <MentorsCOmponent/>
     <br/>
+    <IndustriesandSpecializationcomponent/>
     </div>
   </Layout>
 )
