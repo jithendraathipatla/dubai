@@ -43,6 +43,7 @@ const IndexPage = () => (
     <br/>
     <IndustriesandSpecializationcomponent/>
     </div>
+    <br/>
   </Layout>
 )
 
