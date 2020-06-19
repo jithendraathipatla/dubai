@@ -67,7 +67,7 @@ const IndexPage = () => (
      </div>
     </div>
     <br/>
-    <br/>
+    
     <div css={main1}>
        <div css={one}>
           <div style={{textAlign:"center"}}>
