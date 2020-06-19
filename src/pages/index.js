@@ -7,6 +7,8 @@ import SEO from "../components/seo"
 import Slidercomponent from "../components/slider"
 import MentorsCOmponent from '../components/image'
 import IndustriesandSpecializationcomponent from '../components/specilizationindustries'
+import EnquiryForm from '../components/enquryform'
+import TitleComponent from '../components/title'
 
 const IndexPage = () => (
   <Layout>
@@ -44,10 +46,75 @@ const IndexPage = () => (
     <IndustriesandSpecializationcomponent/>
     </div>
     <br/>
+    <div css={lastbefore}>
+     <div css={main}>
+      <div>
+        <span>250 +</span>
+        <h1>Expert Mentors</h1>
+      </div>
+      <div>
+      <span>400 +</span>
+      <h1>Sessions Conducted</h1>
+      </div>
+      <div>
+      <span>50 +</span>
+      <h1>Services</h1>
+      </div>
+      <div>
+      <span>50 +</span>
+      <h1>Mentees</h1>
+      </div>
+     </div>
+    </div>
+    <br/>
+    <br/>
+    <div css={main1}>
+       <div css={one}>
+          <div style={{textAlign:"center"}}>
+          <TitleComponent title="Location"/>  
+          </div>
+         
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62146.281621654336!2d79.07129425682794!3d13.216362367994353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad5c1a6cca26a1%3A0xaaadf018b7f72797!2sChittoor%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1592382863652!5m2!1sen!2sin" width="100%" height="530" frameborder="0" tabindex="0"></iframe>
+       </div>
+       <div  css={two}>
+         <div style={{textAlign:"center"}}>
+         <TitleComponent title="Intrested in Getting in touch?"/>
+         </div>
+       <EnquiryForm/>
+       </div>
+      
+      </div>
+      
   </Layout>
 )
 
 export default IndexPage
+
+const main1 = css`
+ display: flex;
+`
+const one= css`
+ flex: 7;
+`
+const two = css`
+  flex: 3;
+`
+
+const main = css`
+ display: flex;
+ justify-content: space-around;
+ color: white;
+ font-size: 22px;
+ h1{
+  font-size: 16px;
+  margin-top: 7px;
+ }
+`
+
+const lastbefore = css`
+ background: linear-gradient(to left, orange, blue);
+ padding:20px 10px;
+`
 
 const whydoi = css`
  display: flex;
