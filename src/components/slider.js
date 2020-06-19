@@ -20,9 +20,9 @@ const Slider = () => {
           interval={4000}
           css={slidercss}
         >
-          <div data-src="https://jbm4u.com/assets/6freeAdvisorySessionImg.png" alt="First Slider Image"></div>
-          <div data-src="https://jbm4u.com/assets/Webinar2_websitebanner.png" alt="Second Slider Image" />
-          <div data-src="https://jbm4u.com/assets/banner_ifive.png" alt="Third Slider Image" />
+          <div data-src="https://targetorate.com/images/targetorate-slide11.jpg" alt="First Slider Image"></div>
+          <div data-src="https://www.blastanalytics.com/wp-content/uploads/2020/01/ga-consulting-header-900x400.jpg" alt="Second Slider Image" />
+          <div data-src="https://www.canarywharf-consulting.com/images/slider%20arxikis/B.png" alt="Third Slider Image" />
         </AutoplaySlider>
         <div css={two}>
           <div css={card}>

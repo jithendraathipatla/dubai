@@ -13,8 +13,7 @@ const footer = () => {
           <ul>
             <li><FaPhone/> +91 9999999999</li>
             <li><FaEnvelope/> abcd@gmail.com </li>
-            <li><FaLocationArrow/> Dubai, 001020, Mount blue Plaza, Saudi Arabia </li>
-            
+            <li><FaLocationArrow/> Dubai, 001020, Mount blue Plaza, Saudi Arabia </li>  
           </ul>
         </div>
         <div>

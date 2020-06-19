@@ -3,10 +3,10 @@ import { useStaticQuery, graphql } from "gatsby"
 import TitleComponent from "../components/title"
 import Img from "gatsby-image"
 import { css } from "@emotion/core"
-import Slider from 'react-slick';
-import "../../node_modules/slick-carousel/slick/slick.css"; 
-import "../../node_modules/slick-carousel/slick/slick-theme.css";
-import '../components/layout.css'
+import Slider from "react-slick"
+import "../../node_modules/slick-carousel/slick/slick.css"
+import "../../node_modules/slick-carousel/slick/slick-theme.css"
+import "../components/layout.css"
 
 const Image = () => {
   const data = useStaticQuery(graphql`
@@ -113,7 +113,6 @@ const Image = () => {
   `)
 
   const fadeImages = [
-
     {
       img: data.Image2.childImageSharp.fluid,
       name: "Abcd",
@@ -161,18 +160,25 @@ const Image = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3
-  };
-
+    slidesToScroll: 3,
+  }
 
   const slides = () => {
     return fadeImages.map((item, i) => {
       return (
         <div key={i} css={images}>
-            <Img fluid={item.img} />
-            <div style={{textAlign:"center", background:"#eeee", margin:"0px 10px", padding: "10px", marginRight:"0px"}}>
+          <Img fluid={item.img} />
+          <div
+            style={{
+              textAlign: "center",
+              background: "#eeee",
+              margin: "0px 10px",
+              padding: "10px",
+              marginRight: "0px",
+            }}
+          >
             <span>{item.name}</span>
-            </div>
+          </div>
         </div>
       )
     })
@@ -187,21 +193,21 @@ const Image = () => {
   }
 
   return (
-  <>
-        <div style={{ textAlign: "center" }}>
-          <TitleComponent title="Meet our expert mentors" />
-        </div>
-       
-        {Slideshow()}
-      </>
-    )
+    <>
+      <div style={{ textAlign: "center" }}>
+        <TitleComponent title="Meet our expert mentors" />
+      </div>
+
+      {Slideshow()}
+    </>
+  )
 }
 
 export default Image
 
 const images = css`
- img{
-  object-fit:cover !important;
-  margin:10px;
- }
+  img {
+    object-fit: cover !important;
+    margin: 10px;
+  }
 `
