@@ -1,21 +1,33 @@
 import React from "react"
-import {css} from '@emotion/core';
-import {Link} from 'gatsby'
+import { css } from "@emotion/core"
+import { Link } from "gatsby"
 
 const Header = () => {
-  return(
+  return (
     <div css={abx}>
-    <div>
-     <h1>logo</h1>
-     </div>
-     <div css={two}>
-     <span><Link to='/'>Home</Link></span>
-     <span><Link to='/contact'>Find a Mentor</Link></span>
-     <span><Link to='/contact'>FAQ's</Link></span>
-     <span><Link to='/contact'>Blogs</Link></span>
-     <span><Link to='/contact'>Events and Workshops</Link></span>
-     <span><Link to='/contact'>Contact</Link></span>
-     </div>
+      <div>
+        <h1>logo</h1>
+      </div>
+      <div css={two}>
+        <span>
+          <Link to="/" activeClassName="active">Home</Link>
+        </span>
+        <span>
+          <Link to="/contact" activeClassName="active">Find a Mentor</Link>
+        </span>
+        <span>
+          <Link to="/contact" activeClassName="active">FAQ's</Link>
+        </span>
+        <span>
+          <Link to="/contact" activeClassName="active">Blogs</Link>
+        </span>
+        <span>
+          <Link to="/contact" activeClassName="active">Events and Workshops</Link>
+        </span>
+        <span>
+          <Link to="/contact" activeClassName="active">Contact</Link>
+        </span>
+      </div>
     </div>
   )
 }
@@ -23,27 +35,28 @@ const Header = () => {
 export default Header
 
 const two = css`
- span{
-   a{
-    margin-left: 34px;
-    font-size: 20px;
-    letter-spacing: 0.5px;
-   }
- }
+  span {
+    a {
+      margin-left: 34px;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+      padding-bottom:16px;
+      :hover{
+        cursor: pointer;
+        color:#3273dc8f;
+      }
+    }
+  }
 `
 
-
 const abx = css`
-position: fixed;
-padding: 25px 1%;
-margin: 0px 2%;
-z-index: 99;
-width: 95.7%;
-background: white;
-border-bottom-right-radius: 25px;
-border-bottom-left-radius: 25px;
- box-shadow:0px 0px 8px 3px rgba(0,0,0,0.2);
- display:flex;
- justify-content: space-between;
- margin-bottom:3%;
+  position: fixed;
+  padding: 17px 1%;
+  margin: 0px;
+  z-index: 99;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
 `
