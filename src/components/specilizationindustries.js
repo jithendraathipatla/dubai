@@ -145,10 +145,10 @@ const Specilizationindustries = () => {
   return (
     <div style={{ textAlign: "center" }}>
       <br />
-      <button onClick={handelSpecilization} css={state === false ? btn :  ""}>
-        <p>Specilizations</p>
+      <button onClick={handelSpecilization} css={state === false ? btn :  bt}>
+        <p>Specializations</p>
       </button>
-      <button onClick={handelIndustries} css={state === true ? btn1 :  ""}>
+      <button onClick={handelIndustries} css={state === true ? btn1 :  bt}>
         <p>Industries</p>
       </button>
      
@@ -159,6 +159,15 @@ const Specilizationindustries = () => {
 
 export default Specilizationindustries;
 
+const bt = css`
+    border: none;
+    background: none;
+    font-size: 21px;
+    :hover{
+        cursor: pointer;
+    }
+`
+
 const btn = css`
     border: none;
     background: none;
@@ -167,6 +176,9 @@ const btn = css`
     margin-bottom: 37px;
     margin-right: 40px;
     color: orange;
+    :hover{
+        cursor: pointer;
+    }
 `
 const btn1 = css`
     border: none;
@@ -176,6 +188,9 @@ const btn1 = css`
     margin-bottom: 37px;
     margin-left: 40px;
     color: orange;
+    :hover{
+        cursor: pointer;
+    }
 `
 
 const indust = css`
