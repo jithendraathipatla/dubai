@@ -196,6 +196,7 @@ const btn1 = css`
 const indust = css`
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
+  background: aliceblue;
   svg {
     height: 75px;
     width: 16%;

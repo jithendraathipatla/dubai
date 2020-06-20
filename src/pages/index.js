@@ -16,8 +16,10 @@ const IndexPage = () => (
     <Slidercomponent />
     <br />
     <br />
+    <hr/>
     <Howitworkscomponent />
     <br/>
+    <hr/>
     <div style={{margin:"0px 4%"}}>
     <div style={{textAlign:"center"}}>
     <Titlecomponent title="Who’s a Mentor and Why Do You Need One?"/>
@@ -41,11 +43,14 @@ const IndexPage = () => (
       </div>
     </div>
     <br/>
+    <hr/>
     <MentorsCOmponent/>
     <br/>
+    <hr/>
     <IndustriesandSpecializationcomponent/>
     </div>
     <br/>
+    <hr/>
     <div css={lastbefore}>
      <div css={main}>
       <div>
