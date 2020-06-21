@@ -41,7 +41,6 @@ const IndexPage = () => (
        <br/>
        A mentor also assists in sharpening your learning curve, evaluating new ideas and possibilities, exploring ways to implement the same and grow your business.
        <br/>
-       <br/>
        A mentor also assists in sharpening your learning curve, evaluating new ideas and possibilities, exploring ways to implement the same and grow your business.
        …… Which is why you need a Mentor</span>
       </div>
@@ -52,9 +51,7 @@ const IndexPage = () => (
     <TitleComponent title="Our Work"/>
     </div>
     <div css={lastbefore}>
-    <div css={mainbefore}>
-     <img src="https://d329jirxh7znrd.cloudfront.net/app/wp-content/uploads/sites/281/2019/08/home-review.png"/>
-     </div>
+    
      <div css={main}>
       <div>
         <span>250 +</span>
@@ -72,6 +69,9 @@ const IndexPage = () => (
       <span>50 +</span>
       <h1>Mentees</h1>
       </div>
+     </div>
+     <div css={mainbefore}>
+     <img src="https://d329jirxh7znrd.cloudfront.net/app/wp-content/uploads/sites/281/2019/08/home-review.png"/>
      </div>
      
     </div>

@@ -53,7 +53,7 @@ const two = css`
   grid-template-columns: 4fr 4fr 4fr;
   margin: 0px 40px;
   position: absolute;
-  top: 80%;
+  top: 70%;
   z-index: 40;
 `
 const card = css`
