@@ -172,7 +172,7 @@ const btn = css`
     border: none;
     background: none;
     font-size: 21px;
-    border-bottom: 1px solid blueviolet;
+    border-bottom: 1px solid #0c2be9;
     margin-bottom: 37px;
     margin-right: 40px;
     color: orange;
@@ -184,7 +184,7 @@ const btn1 = css`
     border: none;
     background: none;
     font-size: 21px;
-    border-bottom: 1px solid blueviolet;
+    border-bottom: 1px solid #0c2be9;
     margin-bottom: 37px;
     margin-left: 40px;
     color: orange;
@@ -200,7 +200,7 @@ const indust = css`
   svg {
     height: 75px;
     width: 16%;
-    color: #8a2be2a3;
+    color: #0c2be9;
   }
   h1 {
     font-size: 19px;

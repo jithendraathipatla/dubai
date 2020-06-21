@@ -118,7 +118,7 @@ const two = css`
 const main = css`
  display: block;
  flex:auto;
- background: linear-gradient(to left, orange, blue);
+ background: linear-gradient(to left, orange, #0c2be9);
  text-align:center;
  padding:35px 10px;
  justify-content: space-around;

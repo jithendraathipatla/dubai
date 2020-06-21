@@ -13,7 +13,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider)
 const Slider = () => {
   return (
     <div>
-      <div style={{ position: "relative", marginTop:"80px" }}>
+      <div style={{ position: "relative", marginTop:"80px", marginBottom:"-115px" }}>
         <div>
          <img src="https://d329jirxh7znrd.cloudfront.net/app/wp-content/uploads/sites/281/2019/08/home-banner.png"/>
         </div>
@@ -29,11 +29,7 @@ const Slider = () => {
             <h1>Easy Communication Ways</h1>
             <h2>Easily connect with your mentor through LIVE CHAT, VOICE CALL or VIDEO CALL</h2>
           </div>
-          <div css={card}>
-            <GiArmoredBoomerang />
-            <h1>Huge Industry Coverage</h1>
-            <h2>Business mentoring services for a wide range of industries</h2>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -53,7 +49,7 @@ const two = css`
   grid-template-columns: 4fr 4fr 4fr;
   margin: 0px 40px;
   position: absolute;
-  top: 70%;
+  top: 10%;
   z-index: 40;
 `
 const card = css`
@@ -69,7 +65,7 @@ const card = css`
   svg{
     height: 75px;
     width: 100%;
-    color: blueviolet;
+    color: #0c2be9;
   }
   h1{
     font-size: 19px;

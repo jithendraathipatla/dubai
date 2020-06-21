@@ -70,7 +70,7 @@ const content = css`
     svg {
       height: 75px;
       width: 100%;
-      color: blueviolet;
+      color: #0c2be9;
     }
   }
   div :nth-child(1) {
