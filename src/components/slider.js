@@ -13,17 +13,11 @@ const AutoplaySlider = withAutoplay(AwesomeSlider)
 const Slider = () => {
   return (
     <div>
-      <div style={{ position: "relative" }}>
-        <AutoplaySlider
-          play={true}
-          cancelOnInteraction={false}
-          interval={4000}
-          css={slidercss}
-        >
-          <div data-src="https://targetorate.com/images/targetorate-slide11.jpg" alt="First Slider Image"></div>
-          <div data-src="https://www.blastanalytics.com/wp-content/uploads/2020/01/ga-consulting-header-900x400.jpg" alt="Second Slider Image" />
-          <div data-src="https://www.canarywharf-consulting.com/images/slider%20arxikis/B.png" alt="Third Slider Image" />
-        </AutoplaySlider>
+      <div style={{ position: "relative", marginTop:"80px" }}>
+        <div>
+         <img src="https://d329jirxh7znrd.cloudfront.net/app/wp-content/uploads/sites/281/2019/08/home-banner.png"/>
+        </div>
+
         <div css={two}>
           <div css={card}>
             <GiAerialSignal />
@@ -59,7 +53,7 @@ const two = css`
   grid-template-columns: 4fr 4fr 4fr;
   margin: 0px 40px;
   position: absolute;
-  top: 70%;
+  top: 80%;
   z-index: 40;
 `
 const card = css`
