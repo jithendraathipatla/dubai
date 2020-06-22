@@ -88,8 +88,9 @@ const Dubaimainland = () => {
       </span>
       <br />
       <br />
-    <h1>Advamtages:</h1>
-      <ul>
+    <h1>Advantages:</h1>
+    <br/>
+      <ul style={{listStyleType:"disc"}}>
        <li>It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>
        <li>Sharjah trade license cost is affordable.</li>
        <li>Company registration in Sharjah is quick and has limited restrictions.</li>
