@@ -33,9 +33,9 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Company Setup</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">About</a>
-                  <a class="navbar-item">Jobs</a>
-                  <a class="navbar-item">Contact</a>
+                  <a class="navbar-item">UAE Main Laind</a>
+                  <a class="navbar-item">UAE Free zones</a>
+                  <a class="navbar-item">UAE Off Shores</a>
                 </div>
               </div>
 
@@ -43,9 +43,10 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Packages</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">About</a>
-                  <a class="navbar-item">Jobs</a>
-                  <a class="navbar-item">Contact</a>
+                  <a class="navbar-item">View All Packages</a>
+                  <a class="navbar-item">Dhubai</a>
+                  <a class="navbar-item">Abu Dhabi</a>
+                  <a class="navbar-item">Sharja</a>
                 </div>
               </div>
 
@@ -53,12 +54,11 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Services</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">About</a>
-                  <a class="navbar-item">Jobs</a>
-                  <a class="navbar-item">Contact</a>
-                  <a class="navbar-item">About</a>
-                  <a class="navbar-item">Jobs</a>
-                  <a class="navbar-item">Contact</a>
+                  <a class="navbar-item">Business Licences</a>
+                  <a class="navbar-item">Business Sponser Servies</a>
+                  <a class="navbar-item">Pro Services</a>
+                  <a class="navbar-item">Business Activities</a>
+                  <a class="navbar-item">Bank Assistance</a>
                 </div>
               </div>
 
@@ -79,6 +79,17 @@ const Header = () => {
                   <a class="navbar-item">Blog</a>
                   <a class="navbar-item">News and Events</a>
                   <a class="navbar-item">Press Release</a>
+                </div>
+              </div>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link is-arrowless">About</a>
+
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">What is Sevago?</a>
+                  <a class="navbar-item">Chairman`s Profile</a>
+                  <a class="navbar-item">Why Sevago?</a>
+                  <a class="navbar-item">Testimonials</a>
                 </div>
               </div>
               <a class="navbar-item">
