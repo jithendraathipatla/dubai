@@ -15,6 +15,7 @@ import { GrTechnology, GrResources, GrCart } from "react-icons/gr"
 import { GiLipstick } from "react-icons/gi"
 import { AiOutlineAntDesign } from "react-icons/ai"
 import { css } from "@emotion/core"
+import Titlecomponent from '../components/title'
 
 const Specilizationindustries = () => {
   const [state, setstate] = useState(false)
@@ -118,7 +119,6 @@ const Specilizationindustries = () => {
     return ind.map((item, i) => {
       return (
         <div key={i} css={service}>
-          {item.icon}
           <h1>{item.title}</h1>
            <hr/>
           <p>{item.para}</p>
@@ -146,14 +146,8 @@ const Specilizationindustries = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <br />
-      <button onClick={handelSpecilization} css={state === false ? btn :  bt}>
-        <p>Specializations</p>
-      </button>
-      <button onClick={handelIndustries} css={state === true ? btn1 :  bt}>
-        <p>Industries</p>
-      </button>
-     
+        <TitleComponent title="Our Services"/>
+        <p>We offer the best Mentors our customers, All the mentors are best at their job.</p>
       <div css={indust}>{display()}</div>
     </div>
   )
