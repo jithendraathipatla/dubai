@@ -680,3 +680,55 @@ pre tt:after {
       background: linear-gradient(to left, orange, #2196F3);
   }
 }
+
+@media screen and (min-width: 1024px){
+  .navbar-menu{
+   flex-grow: unset !important;
+     flex-shrink: 0; 
+  }
+}
+
+.navbar-item img {
+  max-height: 4.75rem !important;
+  margin-bottom: 0px !important;
+}
+
+a.navbar-item, .navbar-link {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-right: 42px;
+}
+.navbar-item{
+  padding:0px !important;
+}
+
+.navbar-item a{
+  color: #4a4a4a;
+}
+
+.navbar-item a:hover{
+  color: #3273dc;
+}
+
+.navbar-dropdown a.navbar-item{
+  padding:20px;
+}
+
+.navbar-dropdown a.navbar-item:hover{
+  color: #3273dc !important;
+}
+
+.navbar-item, .navbar-link {
+   padding: 0px !important;
+}
+
+@media screen and (min-width: 1024px){
+.navbar-dropdown a.navbar-item {
+    padding-left: 1rem!important;
+    font-size: 16px;
+    padding-bottom: 10px !important;
+    letter-spacing: 0.5px;
+}
+}
