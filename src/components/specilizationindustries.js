@@ -156,7 +156,7 @@ const indust = css`
   svg {
     height: 75px;
     width: 16%;
-    color: #0c2be9;
+    color:black;
   }
   h1 {
     font-size: 19px;

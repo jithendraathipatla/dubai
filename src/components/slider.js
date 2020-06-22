@@ -65,7 +65,7 @@ const card = css`
   svg{
     height: 75px;
     width: 100%;
-    color: #0c2be9;
+    color: black;
   }
   h1{
     font-size: 19px;

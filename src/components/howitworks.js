@@ -69,7 +69,7 @@ const content = css`
     svg {
       height: 75px;
       width: 100%;
-      color: #0c2be9;
+      color: #ff4e16;
     }
   }
   div :nth-child(1) {

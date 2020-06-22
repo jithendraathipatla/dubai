@@ -694,7 +694,7 @@ pre tt:after {
 }
 
 a.navbar-item, .navbar-link {
-    color: #4a4a4a;
+    color: #c8af28 !important;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 1.2px;
@@ -705,11 +705,11 @@ a.navbar-item, .navbar-link {
 }
 
 .navbar-item a{
-  color: #4a4a4a;
+  color: #c8af28;
 }
 
 .navbar-item a:hover{
-  color: #3273dc;
+  color: #3273dc !important;
 }
 
 .navbar-dropdown a.navbar-item{
