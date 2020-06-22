@@ -5,6 +5,9 @@ import TitleComponent from '../components/title'
 import ContactUsComponent from '../components/contactus'
 import TabsContainerComponent from '../components/tabscontainer'
 import Dubaimainland from '../components/subcomponents/dubaimainland'
+import Abudhabimainland from '../components/subcomponents/abudhabi'
+import Sharjaminland from '../components/subcomponents/sharjamainland'
+import Ajmanmainland from '../components/subcomponents/ajman'
 
 const Contactuspage = () => {
   return (
@@ -15,7 +18,7 @@ const Contactuspage = () => {
         </div>
         <br/>
         <div css={main}>
-        <TabsContainerComponent labelone="Dubai Main Land" contentone={<Dubaimainland/>} labeltwo="Sharja Main Lan" labelthree="Abu Dhabi Mainland" labelfour="Ajman Mainland"/>
+        <TabsContainerComponent labelone="Dubai Main Land" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharja Main Lan" labelthree="Abu Dhabi Mainland" contentthree={<Abudhabimainland/>} labelfour="Ajman Mainland" contentfour={<Ajmanmainland/>}/>
         </div>
         <hr/>
         <ContactUsComponent/>
