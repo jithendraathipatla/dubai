@@ -30,12 +30,11 @@ const footer = () => {
         <div>
           <TitleComponent title="Menu" />
           <ul>
-            <li>FAQ`s</li>
-            <li>General</li>
-            <li>Become a Mentor</li>
-            <li>Become a Mentee</li>
-            <li>Blogs</li>
-            <li>News and Media</li>
+            <li>Company Setup</li>
+            <li>Packages</li>
+            <li>Services</li>
+            <li>Offers</li>
+            <li>Contact Us</li>
           </ul>
         </div>
         <div>

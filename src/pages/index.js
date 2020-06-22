@@ -15,8 +15,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Slidercomponent />
     <br />
-    <br />
-    <Howitworkscomponent />
+    <hr/>
+    <IndustriesandSpecializationcomponent/>
     <br/>
     <hr/>
     <div style={{margin:"0px 4%"}}>
@@ -75,11 +75,7 @@ const IndexPage = () => (
      
     </div>
     <br/>
-    <hr/>
-    <MentorsCOmponent/>
-    <br/>
-    <hr/>
-    <IndustriesandSpecializationcomponent/>
+    
     </div>
     <br/>
     <hr style={{marginTop:"0px"}}/>
