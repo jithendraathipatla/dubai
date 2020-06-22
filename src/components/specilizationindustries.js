@@ -146,7 +146,7 @@ const Specilizationindustries = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
-        <TitleComponent title="Our Services"/>
+        <Titlecomponent title="Our Services"/>
         <p>We offer the best Mentors our customers, All the mentors are best at their job.</p>
       <div css={indust}>{display()}</div>
     </div>
