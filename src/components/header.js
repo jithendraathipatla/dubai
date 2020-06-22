@@ -11,27 +11,33 @@ const Header = () => {
         <div css={abc}>
           <div class="navbar-brand">
             <a class="navbar-item">
-             <Link to="/"> <img
-                src={Logo}
-                style={{ height: "fit-content", width: "120px" }}
-              />
+              <Link to="/">
+                {" "}
+                <img
+                  src={Logo}
+                  style={{ height: "fit-content", width: "120px" }}
+                />
               </Link>
             </a>
           </div>
 
           <div id="navbarBasicExample" class="navbar-menu">
-          <a class="navbar-item">
-          <Link to="/" activeClassName="active">
-            Home
-          </Link>
-        </a>
+            <a class="navbar-item">
+              <Link to="/">
+                Home
+              </Link>
+            </a>
             <div class="navbar-start">
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link is-arrowless">Company Setup</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/uaemainland">UAE Main Laind</Link></a>
-                  <a class="navbar-item"><Link to="/uae-free-zones">UAE Free zones</Link></a>
+                  <a class="navbar-item">
+                    <Link to="/uaemainland">UAE Main Laind</Link>
+                  </a>
+                  <a class="navbar-item">
+                    <Link to="/uae-free-zones">UAE Free zones</Link>
+                  </a>
                   <a class="navbar-item">UAE Off Shores</a>
                 </div>
               </div>
@@ -90,7 +96,7 @@ const Header = () => {
                 </div>
               </div>
               <a class="navbar-item">
-                <Link to="/contact" activeClassName="active">
+                <Link to="/contact">
                   Contact US
                 </Link>
               </a>
