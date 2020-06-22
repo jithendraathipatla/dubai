@@ -53,12 +53,10 @@ const Dubaimainland = () => {
       return (
         <div key={i} css={card}>
           <img height="294" width="540" src={item.img} />
-
           <div style={{ textAlign: "center" }}>
             <h1>{item.name}</h1>
           </div>
-
-          <span>{item.paragraph}</span>
+          <span style={{textAlign:"justify"}}>{item.paragraph}</span>
         </div>
       )
     })
@@ -92,6 +90,7 @@ const Dubaimainland = () => {
         priority and provide simple and effective business setup solutions at
         competitive prices.
       </span>
+      <br/>
       <br/>
       <div css={sty}>{display()}</div>
     </div>
