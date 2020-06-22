@@ -19,16 +19,12 @@ const footer = () => {
         <div>
           <TitleComponent title="Quick Links" />
           <ul>
-            <li>Business Consulting</li>
-            <li>Finacial Reporting And Consulting</li>
-            <li>Legal Consulting And Advisory</li>
-            <li>Sales - Consulting And Planning</li>
-            <li>Technology Consulting</li>
-            <li>HR Consulting</li>
-            <li>Interior Design Consulting</li>
-            <li>Regulatory Compliances and Licensing</li>
-            <li>Marketing - Advisory and Consulting</li>
-            <li>Others</li>
+            <li>Company Formation & Licensing</li>
+            <li>Sponsorship & Visa Services</li>
+            <li>Pro Services</li>
+            <li>Banking Assistance</li>
+            <li>Investor Rights Protection</li>
+            <li>Value Added Services</li>
           </ul>
         </div>
         <div>

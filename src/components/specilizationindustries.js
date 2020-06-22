@@ -66,45 +66,35 @@ const Specilizationindustries = () => {
   const ind = [
     {
       icon: <FaRegMoneyBillAlt />,
-      title: "Business Consulting",
-      para: "Our specialized mentors will provide strategies to help",
+      title: "Company Formation & Licensing",
+      para: "Our business setup consultants can help you with customized company formation Solutins that are hassle-free, and suitable for your business",
     },
     {
       icon: <FaMoneyBillAlt />,
-      title: "Financial consulting",
-      para: "Our specialized mentors will provide strategies to help",
-    },
+      title: "Sponsorship & Visa Services",
+      para: "Our Business setup provides reliable and trustworthy local sponsorship and visa services that ensure as little as possible"    },
     {
       icon: <GoNote />,
-      title: "Legal consulting",
-      para: "Our specialized mentors will provide strategies to help",
+      title: "Pro Services",
+      para: "Our Public Relations Officers (PRO) Help you easily and efficiently handel all your documentation and government related process",
     },
     {
       icon: <FiMail />,
-      title: "Sales and Marketing",
-      para: "Our specialized mentors will provide strategies to help",
+      title: "Banking Assistance",
+      para: "Our strong relationship with various banks, and official in-house countries of banking patner, makes opening a corporate bank account through as quick and effortless",
     },
 
     {
       icon: <FaArtstation />,
-      title: "Interior design and Consulting",
-      para: "Our specialized mentors will provide strategies to help",
+      title: "Investor Rights Protection",
+      para: "A corporate Sponsorship agreement with us comes with a strong investor rights and protection contract that ensures you 100% operational ownership",
     },
     {
       icon: <FaBuilding />,
-      title: "Architecture consulting",
-      para: "Our specialized mentors will provide strategies to help",
+      title: "Value Added Services",
+      para: "We offer value added services to new businesses such as business centers, recruitment services, advertising services, tax, consulting, etc.",
     },
-    {
-      icon: <FaRegHeart />,
-      title: "Health care",
-      para: "Our specialized mentors will provide strategies to help",
-    },
-    {
-      icon: <FaBuilding />,
-      title: "Home Based Business",
-      para: "Our specialized mentors will provide strategies to help",
-    },
+   
   ]
 
   const handelSpecilization = () => {
@@ -147,8 +137,9 @@ const Specilizationindustries = () => {
   return (
     <div style={{ textAlign: "center", background:"#e2fafa47" }}>
         <Titlecomponent title="Our Services"/>
-        <p style={{fontWeight:"490", marginBottom:"10px", fontSize:"17px", letterSpacing:"1px"}}>We offer the best Mentors our customers, All the mentors are best at their job.</p>
-      <div css={indust}>{display()}</div>
+        <p style={{fontWeight:"490", fontSize:"17px", letterSpacing:"1px"}}>We offer the best Mentors our customers, All the mentors are best at their job.</p>
+          <br/>
+        <div css={indust}>{display()}</div>
     </div>
   )
 }
@@ -160,7 +151,7 @@ export default Specilizationindustries;
 const indust = css`
  margin-top:-2px;
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-columns: 4fr 4fr 4fr;
   grid-gap: 20px 0px;
   svg {
     height: 75px;
