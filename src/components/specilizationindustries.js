@@ -145,9 +145,9 @@ const Specilizationindustries = () => {
   )
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{ textAlign: "center", background:"#e2fafa47" }}>
         <Titlecomponent title="Our Services"/>
-        <p>We offer the best Mentors our customers, All the mentors are best at their job.</p>
+        <p style={{fontWeight:"490", marginBottom:"10px", fontSize:"17px", letterSpacing:"1px"}}>We offer the best Mentors our customers, All the mentors are best at their job.</p>
       <div css={indust}>{display()}</div>
     </div>
   )
@@ -155,44 +155,13 @@ const Specilizationindustries = () => {
 
 export default Specilizationindustries;
 
-const bt = css`
-    border: none;
-    background: none;
-    font-size: 21px;
-    :hover{
-        cursor: pointer;
-    }
-`
 
-const btn = css`
-    border: none;
-    background: none;
-    font-size: 21px;
-    border-bottom: 1px solid #0c2be9;
-    margin-bottom: 37px;
-    margin-right: 40px;
-    color: orange;
-    :hover{
-        cursor: pointer;
-    }
-`
-const btn1 = css`
-    border: none;
-    background: none;
-    font-size: 21px;
-    border-bottom: 1px solid #0c2be9;
-    margin-bottom: 37px;
-    margin-left: 40px;
-    color: orange;
-    :hover{
-        cursor: pointer;
-    }
-`
 
 const indust = css`
  margin-top:-2px;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-gap: 20px 0px;
   svg {
     height: 75px;
     width: 16%;
