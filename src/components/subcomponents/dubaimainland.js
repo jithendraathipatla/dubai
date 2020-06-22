@@ -56,7 +56,7 @@ const Dubaimainland = () => {
           <div style={{ textAlign: "center" }}>
             <h1>{item.name}</h1>
           </div>
-          <span style={{textAlign:"justify"}}>{item.paragraph}</span>
+          <span>{item.paragraph}</span>
         </div>
       )
     })
@@ -114,6 +114,7 @@ const sty = css`
   display: grid;
   grid-template-columns: 4fr 4fr 4fr;
   grid-gap: 30px;
+  text-align: justify;
 `
 const card = css`
   border-radius: 2px;
