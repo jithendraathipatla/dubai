@@ -11,7 +11,10 @@ const Header = () => {
         <div css={abc}>
           <div class="navbar-brand">
             <a class="navbar-item">
-              <img src={Logo} style={{height:"fit-content", width:"120px"}}/>
+              <img
+                src={Logo}
+                style={{ height: "fit-content", width: "120px" }}
+              />
             </a>
 
             <a
@@ -33,7 +36,7 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Company Setup</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">UAE Main Laind</a>
+                  <a class="navbar-item"><Link to="/uaemainland">UAE Main Laind</Link></a>
                   <a class="navbar-item">UAE Free zones</a>
                   <a class="navbar-item">UAE Off Shores</a>
                 </div>

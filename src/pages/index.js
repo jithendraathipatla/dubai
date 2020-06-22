@@ -21,7 +21,7 @@ const IndexPage = () => (
     <br />
     <Howitworkscomponent />
     <br/>
-    <hr/>
+
     <div style={{margin:"0px 4%"}}>
     <div style={{textAlign:"center"}}>
     <Titlecomponent title="Who’s a Mentor and Why Do You Need One?"/>
