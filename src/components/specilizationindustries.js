@@ -135,7 +135,7 @@ const Specilizationindustries = () => {
   )
 
   return (
-    <div style={{ textAlign: "center", background:"#e2fafa47" }}>
+    <div style={{ textAlign: "center" }}>
         <Titlecomponent title="Our Services"/>
         <p style={{fontWeight:"490", fontSize:"17px", letterSpacing:"1px"}}>We offer the best Mentors our customers, All the mentors are best at their job.</p>
           <br/>
