@@ -17,28 +17,21 @@ const Header = () => {
               />
               </Link>
             </a>
-
-            <a
-              role="button"
-              class="navbar-burger burger"
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="navbarBasicExample"
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
           </div>
 
           <div id="navbarBasicExample" class="navbar-menu">
+          <a class="navbar-item">
+          <Link to="/" activeClassName="active">
+            Home
+          </Link>
+        </a>
             <div class="navbar-start">
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link is-arrowless">Company Setup</a>
 
                 <div class="navbar-dropdown">
                   <a class="navbar-item"><Link to="/uaemainland">UAE Main Laind</Link></a>
-                  <a class="navbar-item">UAE Free zones</a>
+                  <a class="navbar-item"><Link to="/uae-free-zones">UAE Free zones</Link></a>
                   <a class="navbar-item">UAE Off Shores</a>
                 </div>
               </div>
