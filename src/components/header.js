@@ -38,7 +38,9 @@ const Header = () => {
                   <a class="navbar-item">
                     <Link to="/uae-free-zones">UAE Free zones</Link>
                   </a>
-                  <a class="navbar-item">UAE Off Shores</a>
+                  <a class="navbar-item">
+                  <Link to="/uaemainland">UAE Off Shores</Link>
+                </a>
                 </div>
               </div>
 
@@ -46,10 +48,10 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Packages</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">View All Packages</a>
-                  <a class="navbar-item">Dhubai</a>
-                  <a class="navbar-item">Abu Dhabi</a>
-                  <a class="navbar-item">Sharja</a>
+                  <a class="navbar-item"><Link to="/comingsoon">View All Packages</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Dhubai</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Abu Dhabi</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Sharja</Link></a>
                 </div>
               </div>
 
@@ -57,11 +59,11 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Services</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">Business Licences</a>
-                  <a class="navbar-item">Business Sponser Servies</a>
-                  <a class="navbar-item">Pro Services</a>
-                  <a class="navbar-item">Business Activities</a>
-                  <a class="navbar-item">Bank Assistance</a>
+                  <a class="navbar-item"><Link to="/comingsoon">Business Licences</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Business Sponser Servies</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Pro Services</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Business Activities</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Bank Assistance</Link></a>
                 </div>
               </div>
 
@@ -69,9 +71,9 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Offices</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">Business Centers</a>
-                  <a class="navbar-item">Offices for Rent</a>
-                  <a class="navbar-item">Smart Desks</a>
+                  <a class="navbar-item"><Link to="/comingsoon">Business Centers</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Offices for Rent</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Smart Desks</Link></a>
                 </div>
               </div>
 
@@ -79,9 +81,9 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">What`s new</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">Blog</a>
-                  <a class="navbar-item">News and Events</a>
-                  <a class="navbar-item">Press Release</a>
+                  <a class="navbar-item"><Link to="/comingsoon">Blog</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">News and Events</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Press Release</Link></a>
                 </div>
               </div>
 
@@ -89,10 +91,10 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">About</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item">What is Sevago?</a>
-                  <a class="navbar-item">Chairman`s Profile</a>
-                  <a class="navbar-item">Why Sevago?</a>
-                  <a class="navbar-item">Testimonials</a>
+                  <a class="navbar-item"><Link to="/comingsoon">What is Sevago?</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Chairman`s Profile</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Why Sevago?</Link></a>
+                  <a class="navbar-item"><Link to="/comingsoon">Testimonials</Link></a>
                 </div>
               </div>
               <a class="navbar-item">
