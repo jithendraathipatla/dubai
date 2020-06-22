@@ -32,7 +32,7 @@ const footer = () => {
           </ul>
         </div>
         <div>
-          <TitleComponent title="Quick Links" />
+          <TitleComponent title="Menu" />
           <ul>
             <li>FAQ`s</li>
             <li>General</li>
@@ -68,7 +68,7 @@ export default footer
 const lastl = css`
   color: white;
   text-align: center;
-  background: #111;
+  background: #131A22;
   padding: 10px;
   span {
     display: block;
@@ -89,8 +89,8 @@ const last = css`
 const main = css`
   display: grid;
   grid-template-columns: 4fr 3fr 2fr 3fr;
-  background: no-repeat padding-box #1e1e1e;
-  color: #b6b6b6;
+  background: no-repeat padding-box #232F3E;
+  color: #DDD;
   grid-gap: 30px;
   padding: 10px 50px;
   

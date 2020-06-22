@@ -16,7 +16,6 @@ const IndexPage = () => (
     <Slidercomponent />
     <br />
     <br />
-    <hr/>
     <Howitworkscomponent />
     <br/>
     <hr/>

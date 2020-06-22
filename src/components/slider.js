@@ -13,7 +13,7 @@ const AutoplaySlider = withAutoplay(AwesomeSlider)
 const Slider = () => {
   return (
     <div>
-      <div style={{ position: "relative", marginTop:"80px", marginBottom:"-115px" }}>
+      <div style={{ position: "relative", marginTop:"55px", marginBottom:"-130px" }}>
         <div>
          <img src="https://d329jirxh7znrd.cloudfront.net/app/wp-content/uploads/sites/281/2019/08/home-banner.png"/>
         </div>

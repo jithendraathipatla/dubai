@@ -120,6 +120,7 @@ const Specilizationindustries = () => {
         <div key={i} css={service}>
           {item.icon}
           <h1>{item.title}</h1>
+           <hr/>
           <p>{item.para}</p>
         </div>
       )
@@ -132,6 +133,7 @@ const Specilizationindustries = () => {
         <div key={i} css={service}>
           {item.icon}
           <h1>{item.title}</h1>
+           <hr/>
           <p>{item.para}</p>
         </div>
       )
@@ -194,9 +196,9 @@ const btn1 = css`
 `
 
 const indust = css`
+ margin-top:-2px;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
-  background: aliceblue;
   svg {
     height: 75px;
     width: 16%;
@@ -206,33 +208,20 @@ const indust = css`
     font-size: 19px;
     font-weight: 500;
     color: black;
-    margin-top: 7px;
+  }
+  hr{
+    width: 18%;
+    border-bottom: 2px solid orange;
+    margin: 7px;
+    margin-left: 20%;
+    transform: translate(119%, 2px);
   }
   p {
     font-size: 16px;
     margin-top: 7px;
     margin-bottom: 10px;
   }
-  border-bottom:1px solid #dfdfdf;
 `
 const service = css`
-  border-top: 1px solid #dfdfdf;
-  border-left: 1px solid #dfdfdf;
   padding:15px;
-  &:nth-child(-n + 2) {
-    border-top: 1px solid #dfdfdf;
-  }
-  &:nth-child(odd) {
-    border-left: 1px solid #dfdfdf;
-  }
-  &:nth-child(-n + 3) {
-    border-top: 1px solid #dfdfdf;
-  }
-  &:first-child,
-  &:nth-child(3n + 1) {
-    border-left: 1px solid #dfdfdf;
-  }
-  &:nth-child(4n){
-    border-right: 1px solid #dfdfdf;
-  }
 `

@@ -45,7 +45,6 @@ const HowitWorks = () => {
 export default HowitWorks
 
 const main = css`
-background: aliceblue;
 margin: 0px 4%;
 padding:30px;
 box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
