@@ -45,6 +45,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
+    letterSpacing: "0.5px",
   },
 }));
 
@@ -78,7 +79,7 @@ export default function ScrollableTabsButtonAuto(props) {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Item One
+        {props.contentone}
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two

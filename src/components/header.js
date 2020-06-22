@@ -11,10 +11,11 @@ const Header = () => {
         <div css={abc}>
           <div class="navbar-brand">
             <a class="navbar-item">
-              <img
+             <Link to="/"> <img
                 src={Logo}
                 style={{ height: "fit-content", width: "120px" }}
               />
+              </Link>
             </a>
 
             <a
