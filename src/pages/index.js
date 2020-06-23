@@ -18,11 +18,9 @@ const IndexPage = () => (
     <br />
     <hr/>
     <IndustriesandSpecializationcomponent/>
-    <br />
+    <hr/>
     <Howitworkscomponent />
-
-    <br/>
- <hr/>
+    <hr/>
     <div style={{margin:"0px 4%"}}>
     <div style={{textAlign:"center"}}>
     <Titlecomponent title="Who’s a Mentor and Why Do You Need One?"/>
@@ -31,12 +29,10 @@ const IndexPage = () => (
       <div>
          <img src="https://d329jirxh7znrd.cloudfront.net/app/wp-content/uploads/sites/281/2019/08/home-illustration02.png" style={{width:"600px"}}/>
       </div>
-
-      <div>
-      <br/>
+      <div style={{textAlign:"justify"}}>
        <span>A Mentor is a defined as a Person who guides another to Greater Success.
         <br/>
-       "Mentoring is a brain to pick, an ear to listen, and a push in the right direction." Source: John Crosby.
+       Mentoring is a brain to pick, an ear to listen, and a push in the right direction." Source: John Crosby.
        <br/>
        A mentor is a navigator partnering with you on your business journey.
        <br/>
@@ -45,10 +41,12 @@ const IndexPage = () => (
        A mentor also assists in sharpening your learning curve, evaluating new ideas and possibilities, exploring ways to implement the same and grow your business.
        <br/>
        A mentor also assists in sharpening your learning curve, evaluating new ideas and possibilities, exploring ways to implement the same and grow your business.
+       <br/>
+       A mentor also assists in sharpening your learning curve, evaluating new ideas and possibilities, exploring ways to implement the same and grow your business.
+       <br/>
        …… Which is why you need a Mentor</span>
       </div>
     </div>
-    <br/>
     <hr/>
     <div style={{textAlign:"center"}}>
     <TitleComponent title="Our Work"/>
