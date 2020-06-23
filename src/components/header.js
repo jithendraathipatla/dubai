@@ -98,7 +98,7 @@ const Header = () => {
                 </div>
               </div>
               <a className="navbar-item">
-                <Link to="/contact">
+                <Link to="/contact" activeClassName="active">
                   Contact US
                 </Link>
               </a>
