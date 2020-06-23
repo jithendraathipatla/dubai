@@ -3,8 +3,7 @@ import { css } from "@emotion/core"
 import Titlecomponent from "../components/title"
 import { GiTeamIdea } from "react-icons/gi"
 import { BsPersonCheckFill } from "react-icons/bs"
-import { IoMdLaptop } from "react-icons/io"
-import { FiChevronRight } from "react-icons/fi"
+import { RiCustomerService2Line } from "react-icons/ri"
 
 const HowitWorks = () => {
   return (
@@ -34,7 +33,7 @@ const HowitWorks = () => {
          </div>
         </div>
         <div>
-          <IoMdLaptop />
+          <RiCustomerService2Line />
           <h1>Speak to a Business Consultant</h1>
           <h2>Book an appointment and start the session</h2>
           <br/>

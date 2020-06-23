@@ -625,16 +625,20 @@ pre tt:after {
   display: none !important;
 }
 
-.awssld__content > img{
+.awssld__content > img {
   object-fit: contain !important;
   background: white;
 }
 
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   background: black !important;
 }
 
-.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
   background: rgb(56, 53, 53) !important;
 }
 
@@ -642,14 +646,12 @@ pre tt:after {
   position: unset;
 }
 
-.active{
+.active {
   border-bottom: 2px solid #0c2be9;
 }
 
-
-
-.servicestext{
-  font-size:1rem;
+.servicestext {
+  font-size: 1rem;
   animation: example 2s infinite;
   font-size: 1.2rem;
   font-weight: 500;
@@ -660,31 +662,31 @@ pre tt:after {
   color: white;
 }
 
-@media only screen and (max-width:600px){
-  .servicestext{
-      font-size: 1.2rem;
-      font-weight: 500;
-      animation: example 2s infinite;
-      margin: 45% 10%;
-      padding: 120px 20px;
-      border-radius: 6px;
-      color: white;
+@media only screen and (max-width: 600px) {
+  .servicestext {
+    font-size: 1.2rem;
+    font-weight: 500;
+    animation: example 2s infinite;
+    margin: 45% 10%;
+    padding: 120px 20px;
+    border-radius: 6px;
+    color: white;
   }
 }
 
-@keyframes example{
-  0%{
-      background: linear-gradient(to left, #2196F3, orange);
+@keyframes example {
+  0% {
+    background: linear-gradient(to left, #2196f3, orange);
   }
-  100%{
-      background: linear-gradient(to left, orange, #2196F3);
+  100% {
+    background: linear-gradient(to left, orange, #2196f3);
   }
 }
 
-@media screen and (min-width: 1024px){
-  .navbar-menu{
-   flex-grow: unset !important;
-     flex-shrink: 0; 
+@media screen and (min-width: 1024px) {
+  .navbar-menu {
+    flex-grow: unset !important;
+    flex-shrink: 0;
   }
 }
 
@@ -693,28 +695,27 @@ pre tt:after {
   margin-bottom: 0px !important;
 }
 
-a.navbar-item, .navbar-link {
-    color: #c8af28 !important;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 1.2px;
-    margin-right: 42px;
+a.navbar-item,
+.navbar-link {
+  color: #c8af28 !important;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  margin-right: 42px;
 }
-.navbar-item{
-  padding:0px !important;
+.navbar-item {
+  padding: 0px !important;
 }
 
-.navbar-item a{
+.navbar-item a {
   color: #c8af28;
 }
 
-.navbar-item a:hover{
+.navbar-item a:hover {
   color: #3273dc !important;
 }
 
-
-
-
-.navbar-item, .navbar-link {
-   padding: 0px !important;
+.navbar-item,
+.navbar-link {
+  padding: 0px !important;
 }
