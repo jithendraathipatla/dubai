@@ -33,13 +33,13 @@ const Header = () => {
 
                 <div className="navbar-dropdown">
                   <a className="navbar-item">
-                    <Link to="/uaemainland" activeClassName="active">UAE Main Laind</Link>
+                    <Link to="/uaemainland" activeClassName="active">London Main Laind</Link>
                   </a>
                   <a className="navbar-item">
-                    <Link to="/uae-free-zones" activeClassName="active">UAE Free zones</Link>
+                    <Link to="/uae-free-zones" activeClassName="active" className="navbar-item">London Free zones</Link>
                   </a>
                   <a className="navbar-item">
-                  <Link to="/uae-off-shores" activeClassName="active">UAE Off Shores</Link>
+                  <Link to="/uae-off-shores" activeClassName="active">London Off Shores</Link>
                 </a>
                 </div>
               </div>
@@ -49,9 +49,9 @@ const Header = () => {
 
                 <div className="navbar-dropdown">
                   <a className="navbar-item"><Link to="/view-all-packages" activeClassName="active">View All Packages</Link></a>
-                  <a className="navbar-item"><Link to="/dubai-packages" activeClassName="active">Dhubai</Link></a>
+                  <a className="navbar-item"><Link to="/dubai-packages" activeClassName="active" className="navbar-item">Dhubai</Link></a>
                   <a className="navbar-item"><Link to="/abu-dha-bi-packages" activeClassName="active">Abu Dhabi</Link></a>
-                  <a className="navbar-item"><Link to="/sharja-packages" activeClassName="active">Sharja</Link></a>
+                  <a className="navbar-item"><Link to="/sharja-packages" activeClassName="active" className="navbar-item">Sharja</Link></a>
                 </div>
               </div>
 
@@ -60,9 +60,9 @@ const Header = () => {
 
                 <div className="navbar-dropdown">
                   <a className="navbar-item"><Link to="/business-licenses" activeClassName="active">Business Licences</Link></a>
-                  <a className="navbar-item"><Link to="/business-sponsor-services" activeClassName="active">Business Sponser Servies</Link></a>
+                  <a className="navbar-item"><Link to="/business-sponsor-services" activeClassName="active" className="navbar-item">Business Sponser Servies</Link></a>
                   <a className="navbar-item"><Link to="/pro-services" activeClassName="active">Pro Services</Link></a>
-                  <a className="navbar-item"><Link to="/business-activities" activeClassName="active">Business Activities</Link></a>
+                  <a className="navbar-item"><Link to="/business-activities" activeClassName="active" className="navbar-item">Business Activities</Link></a>
                   <a className="navbar-item"><Link to="/bank-assistance" activeClassName="active">Bank Assistance</Link></a>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const Header = () => {
 
                 <div className="navbar-dropdown">
                   <a className="navbar-item"><Link to="/business-centers" activeClassName="active">Business Centers</Link></a>
-                  <a className="navbar-item"><Link to="/offices-for-rent" activeClassName="active">Offices for Rent</Link></a>
+                  <a className="navbar-item"><Link to="/offices-for-rent" activeClassName="active" className="navbar-item">Offices for Rent</Link></a>
                   <a className="navbar-item"><Link to="/smart-desks" activeClassName="active">Smart Desks</Link></a>
                 </div>
               </div>
@@ -82,8 +82,8 @@ const Header = () => {
 
                 <div className="navbar-dropdown">
                   <a className="navbar-item"><Link to="/blog" activeClassName="active">Blog</Link></a>
-                  <a className="navbar-item"><Link to="/news-and-events" activeClassName="active">News and Events</Link></a>
-                  <a className="navbar-item"><Link to="/press-release" activeClassName="active">Press Release</Link></a>
+                  <a className="navbar-item"><Link to="/news-and-events" activeClassName="active" className="navbar-item">News and Events</Link></a>
+                  <a className="navbar-item"><Link to="/press-release" activeClassName="active" >Press Release</Link></a>
                 </div>
               </div>
 
@@ -92,9 +92,9 @@ const Header = () => {
 
                 <div className="navbar-dropdown">
                   <a className="navbar-item"><Link to="/what-is-sevago" activeClassName="active">What is Sevago?</Link></a>
-                  <a className="navbar-item"><Link to="/chairman" activeClassName="active">Chairman`s Profile</Link></a>
+                  <a className="navbar-item"><Link to="/chairman" activeClassName="active" className="navbar-item">Chairman`s Profile</Link></a>
                   <a className="navbar-item"><Link to="/why-sevago" activeClassName="active">Why Sevago?</Link></a>
-                  <a className="navbar-item"><Link to="/testimonials" activeClassName="active">Testimonials</Link></a>
+                  <a className="navbar-item"><Link to="/testimonials" activeClassName="active" className="navbar-item">Testimonials</Link></a>
                 </div>
               </div>
               <a className="navbar-item">
