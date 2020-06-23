@@ -10,7 +10,7 @@ import { GiAerialSignal,GiSatelliteCommunication, GiArmoredBoomerang } from "rea
 const Slider = () => {
   return (
     <div>
-      <div style={{ position: "relative", marginTop:"55px", marginBottom:"-130px" }}>
+      <div style={{ position: "relative", marginTop:"44px", marginBottom:"-130px" }}>
         <div css={first}>
          <img src={FirstSliderImage}/>
         </div>

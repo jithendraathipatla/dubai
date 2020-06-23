@@ -23,11 +23,11 @@ const Header = () => {
 
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
-              <a className="navbar-item">
-                <Link to="/" activeClassName="active" style={{marginRight:"10px"}}>
+              
+                <Link to="/" activeClassName="active" className="navbar-item">
                   Home
                 </Link>
-              </a>
+              
               <div className="navbar-item has-dropdown is-hoverable">
                 <a className="navbar-link is-arrowless">Company Setup</a>
 
@@ -140,11 +140,11 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-              <a className="navbar-item" style={{marginRight:"10px"}}>
-              <Link to="/contact" activeClassName="active">
+            
+              <Link to="/contact" activeClassName="active" className="navbar-item" style={{marginRight:"10px"}}>
                 Contact US
               </Link>
-            </a>
+          
             </div>
           </div>
         </div>
