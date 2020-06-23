@@ -2,32 +2,27 @@ import React from "react"
 import AwesomeSlider from "react-awesome-slider"
 import withAutoplay from "react-awesome-slider/dist/autoplay"
 import "react-awesome-slider/dist/styles.css"
-import FirstSliderImage from "../images/gatsby-astronaut.png"
-import SecondSliderImage from "../images/gatsby-astronaut.png"
-import ThirdSliderImage from "../images/gatsby-astronaut.png"
+import FirstSliderImage from "../images/mainimage.jpg"
 import { css } from "@emotion/core"
 import { GiAerialSignal,GiSatelliteCommunication, GiArmoredBoomerang } from "react-icons/gi"
 
-const AutoplaySlider = withAutoplay(AwesomeSlider)
 
 const Slider = () => {
   return (
     <div>
       <div style={{ position: "relative", marginTop:"55px", marginBottom:"-130px" }}>
-        <div>
-         <img src="https://d329jirxh7znrd.cloudfront.net/app/wp-content/uploads/sites/281/2019/08/home-banner.png"/>
+        <div css={first}>
+         <img src={FirstSliderImage}/>
         </div>
-
+        <br/>
         <div css={two}>
-          <div css={card}>
-            <GiAerialSignal />
-            <h1>Mentors with global expertise</h1>
-            <h2>Reach out to the mentors from various areas of business, from all parts of the world</h2>
+          <div>
+           
           </div>
           <div css={card}>
-            <GiSatelliteCommunication />
-            <h1>Easy Communication Ways</h1>
-            <h2>Easily connect with your mentor through LIVE CHAT, VOICE CALL or VIDEO CALL</h2>
+           
+            <h1>Start Your Business in UK</h1>
+            
           </div>
           
         </div>
@@ -38,24 +33,25 @@ const Slider = () => {
 
 export default Slider
 
-const slidercss = css`
-  height: 80vh;
-  @media (max-width: 600px) {
-    height: 33vh;
-  }
+const first = css`
+ img{
+   height: 55vh;
+   width:100%;
+   object-fit: cover;
+ }
 `
 const two = css`
   display:grid;
   grid-template-columns: 4fr 4fr 4fr;
   margin: 0px 40px;
   position: absolute;
-  top: 10%;
+  top: 30%;
   z-index: 40;
 `
 const card = css`
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  background-color: #fff;
+  background-color: #00000070;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -68,14 +64,12 @@ const card = css`
     color: black;
   }
   h1{
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 500;
-    color: black;
+    color: #ffff;
     margin-top:7px;
+    padding:0px 40px;
+    padding-bottom:10px;
   }
-  h2{
-      font-size: 16px;
-      margin-top:7px;
-      margin-bottom: 10px;
-  }
+  
 `
