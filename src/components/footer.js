@@ -9,11 +9,12 @@ const footer = () => {
     <div>
       <div css={main}>
         <div>
-          <TitleComponent title="Logo" />
+          <TitleComponent title="Sevago PVT Ltd" />
           <ul>
             <li><FaPhone/> +91 9999999999</li>
-            <li><FaEnvelope/> abcd@gmail.com </li>
-            <li><FaLocationArrow/> Dubai, 001020, Mount blue Plaza, Saudi Arabia </li>  
+            <li><FaEnvelope/> info@sevago.com </li>
+            <li><FaEnvelope/> Majid@sevago.com  </li>
+            <li><FaLocationArrow/> London, 001020, Mount blue Plaza, United Kingdom </li>  
           </ul>
         </div>
         <div>
@@ -93,6 +94,9 @@ const main = css`
     margin-left:10px;
     ul{
       margin-left:10px;
+      li{
+        line-height:26px;
+      }
     }
   }
   
