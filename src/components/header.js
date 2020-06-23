@@ -48,10 +48,10 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Packages</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/comingsoon">View All Packages</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Dhubai</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Abu Dhabi</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Sharja</Link></a>
+                  <a class="navbar-item"><Link to="/view-all-packages">View All Packages</Link></a>
+                  <a class="navbar-item"><Link to="/dubai-packages">Dhubai</Link></a>
+                  <a class="navbar-item"><Link to="/abu-dha-bi-packages">Abu Dhabi</Link></a>
+                  <a class="navbar-item"><Link to="/sharja-packages">Sharja</Link></a>
                 </div>
               </div>
 
@@ -59,11 +59,11 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Services</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/comingsoon">Business Licences</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Business Sponser Servies</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Pro Services</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Business Activities</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Bank Assistance</Link></a>
+                  <a class="navbar-item"><Link to="/business-licenses">Business Licences</Link></a>
+                  <a class="navbar-item"><Link to="/business-sponsor-services">Business Sponser Servies</Link></a>
+                  <a class="navbar-item"><Link to="/pro-services">Pro Services</Link></a>
+                  <a class="navbar-item"><Link to="/business-activities">Business Activities</Link></a>
+                  <a class="navbar-item"><Link to="/bank-assistance">Bank Assistance</Link></a>
                 </div>
               </div>
 
@@ -71,9 +71,9 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">Offices</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/comingsoon">Business Centers</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Offices for Rent</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Smart Desks</Link></a>
+                  <a class="navbar-item"><Link to="/business-centers">Business Centers</Link></a>
+                  <a class="navbar-item"><Link to="/offices-for-rent">Offices for Rent</Link></a>
+                  <a class="navbar-item"><Link to="/smart-desks">Smart Desks</Link></a>
                 </div>
               </div>
 
@@ -81,9 +81,9 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">What`s new</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/comingsoon">Blog</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">News and Events</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Press Release</Link></a>
+                  <a class="navbar-item"><Link to="/blog">Blog</Link></a>
+                  <a class="navbar-item"><Link to="/news-and-events">News and Events</Link></a>
+                  <a class="navbar-item"><Link to="/press-release">Press Release</Link></a>
                 </div>
               </div>
 
@@ -91,10 +91,10 @@ const Header = () => {
                 <a class="navbar-link is-arrowless">About</a>
 
                 <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/comingsoon">What is Sevago?</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Chairman`s Profile</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Why Sevago?</Link></a>
-                  <a class="navbar-item"><Link to="/comingsoon">Testimonials</Link></a>
+                  <a class="navbar-item"><Link to="/what-is-sevago">What is Sevago?</Link></a>
+                  <a class="navbar-item"><Link to="/chairman">Chairman`s Profile</Link></a>
+                  <a class="navbar-item"><Link to="/why-sevago">Why Sevago?</Link></a>
+                  <a class="navbar-item"><Link to="/testimonials">Testimonials</Link></a>
                 </div>
               </div>
               <a class="navbar-item">

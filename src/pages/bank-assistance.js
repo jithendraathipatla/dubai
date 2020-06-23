@@ -6,7 +6,7 @@ const Allpackages = () => {
   return (
     <LayoutComponent>
       <div>
-        <SecondHOC title="Blog">
+        <SecondHOC title="Bank Assistance">
           <span>
             Planning on company registration in Dubai freezone? Dubai offers
             more than 20 freezones and has some of the most prestigious

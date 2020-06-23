@@ -6,7 +6,7 @@ const Allpackages = () => {
   return (
     <LayoutComponent>
       <div>
-        <SecondHOC title="Blog">
+        <SecondHOC title="Sharja Packages">
           <span>
             Planning on company registration in Dubai freezone? Dubai offers
             more than 20 freezones and has some of the most prestigious
@@ -22,6 +22,8 @@ const Allpackages = () => {
             conduct business within UAE, you can simply partner with a local
             distributor and you will be free to trade within UAE as well, speak
             to a consult for free to know your options.
+            <br />
+            <br />
             <br />
             While Dubai free zone business setup allows you to enjoy all the
             benefits of no taxation and import duty exemptions that mainland
