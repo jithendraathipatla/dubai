@@ -7,10 +7,10 @@ import "../components/layout.css"
 const Header = () => {
   return (
     <div css={abx}>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div css={abc}>
-          <div class="navbar-brand">
-            <a class="navbar-item">
+          <div className="navbar-brand">
+            <a className="navbar-item">
               <Link to="/">
                 {" "}
                 <img
@@ -21,83 +21,83 @@ const Header = () => {
             </a>
           </div>
 
-          <div id="navbarBasicExample" class="navbar-menu">
-            <a class="navbar-item">
-              <Link to="/">
+          <div id="navbarBasicExample" className="navbar-menu">
+            <a className="navbar-item">
+              <Link to="/" activeClassName="active">
                 Home
               </Link>
             </a>
-            <div class="navbar-start">
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">Company Setup</a>
+            <div className="navbar-start">
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">Company Setup</a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
-                    <Link to="/uaemainland">UAE Main Laind</Link>
+                <div className="navbar-dropdown">
+                  <a className="navbar-item">
+                    <Link to="/uaemainland" activeClassName="active">UAE Main Laind</Link>
                   </a>
-                  <a class="navbar-item">
-                    <Link to="/uae-free-zones">UAE Free zones</Link>
+                  <a className="navbar-item">
+                    <Link to="/uae-free-zones" activeClassName="active">UAE Free zones</Link>
                   </a>
-                  <a class="navbar-item">
-                  <Link to="/uaemainland">UAE Off Shores</Link>
+                  <a className="navbar-item">
+                  <Link to="/uae-off-shores" activeClassName="active">UAE Off Shores</Link>
                 </a>
                 </div>
               </div>
 
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">Packages</a>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">Packages</a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/view-all-packages">View All Packages</Link></a>
-                  <a class="navbar-item"><Link to="/dubai-packages">Dhubai</Link></a>
-                  <a class="navbar-item"><Link to="/abu-dha-bi-packages">Abu Dhabi</Link></a>
-                  <a class="navbar-item"><Link to="/sharja-packages">Sharja</Link></a>
+                <div className="navbar-dropdown">
+                  <a className="navbar-item"><Link to="/view-all-packages" activeClassName="active">View All Packages</Link></a>
+                  <a className="navbar-item"><Link to="/dubai-packages" activeClassName="active">Dhubai</Link></a>
+                  <a className="navbar-item"><Link to="/abu-dha-bi-packages" activeClassName="active">Abu Dhabi</Link></a>
+                  <a className="navbar-item"><Link to="/sharja-packages" activeClassName="active">Sharja</Link></a>
                 </div>
               </div>
 
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">Services</a>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">Services</a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/business-licenses">Business Licences</Link></a>
-                  <a class="navbar-item"><Link to="/business-sponsor-services">Business Sponser Servies</Link></a>
-                  <a class="navbar-item"><Link to="/pro-services">Pro Services</Link></a>
-                  <a class="navbar-item"><Link to="/business-activities">Business Activities</Link></a>
-                  <a class="navbar-item"><Link to="/bank-assistance">Bank Assistance</Link></a>
+                <div className="navbar-dropdown">
+                  <a className="navbar-item"><Link to="/business-licenses" activeClassName="active">Business Licences</Link></a>
+                  <a className="navbar-item"><Link to="/business-sponsor-services" activeClassName="active">Business Sponser Servies</Link></a>
+                  <a className="navbar-item"><Link to="/pro-services" activeClassName="active">Pro Services</Link></a>
+                  <a className="navbar-item"><Link to="/business-activities" activeClassName="active">Business Activities</Link></a>
+                  <a className="navbar-item"><Link to="/bank-assistance" activeClassName="active">Bank Assistance</Link></a>
                 </div>
               </div>
 
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">Offices</a>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">Offices</a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/business-centers">Business Centers</Link></a>
-                  <a class="navbar-item"><Link to="/offices-for-rent">Offices for Rent</Link></a>
-                  <a class="navbar-item"><Link to="/smart-desks">Smart Desks</Link></a>
+                <div className="navbar-dropdown">
+                  <a className="navbar-item"><Link to="/business-centers" activeClassName="active">Business Centers</Link></a>
+                  <a className="navbar-item"><Link to="/offices-for-rent" activeClassName="active">Offices for Rent</Link></a>
+                  <a className="navbar-item"><Link to="/smart-desks" activeClassName="active">Smart Desks</Link></a>
                 </div>
               </div>
 
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">What`s new</a>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">What`s new</a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/blog">Blog</Link></a>
-                  <a class="navbar-item"><Link to="/news-and-events">News and Events</Link></a>
-                  <a class="navbar-item"><Link to="/press-release">Press Release</Link></a>
+                <div className="navbar-dropdown">
+                  <a className="navbar-item"><Link to="/blog" activeClassName="active">Blog</Link></a>
+                  <a className="navbar-item"><Link to="/news-and-events" activeClassName="active">News and Events</Link></a>
+                  <a className="navbar-item"><Link to="/press-release" activeClassName="active">Press Release</Link></a>
                 </div>
               </div>
 
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">About</a>
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">About</a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item"><Link to="/what-is-sevago">What is Sevago?</Link></a>
-                  <a class="navbar-item"><Link to="/chairman">Chairman`s Profile</Link></a>
-                  <a class="navbar-item"><Link to="/why-sevago">Why Sevago?</Link></a>
-                  <a class="navbar-item"><Link to="/testimonials">Testimonials</Link></a>
+                <div className="navbar-dropdown">
+                  <a className="navbar-item"><Link to="/what-is-sevago" activeClassName="active">What is Sevago?</Link></a>
+                  <a className="navbar-item"><Link to="/chairman" activeClassName="active">Chairman`s Profile</Link></a>
+                  <a className="navbar-item"><Link to="/why-sevago" activeClassName="active">Why Sevago?</Link></a>
+                  <a className="navbar-item"><Link to="/testimonials" activeClassName="active">Testimonials</Link></a>
                 </div>
               </div>
-              <a class="navbar-item">
+              <a className="navbar-item">
                 <Link to="/contact">
                   Contact US
                 </Link>
