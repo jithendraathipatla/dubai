@@ -24,7 +24,7 @@ const Header = () => {
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start">
               <a className="navbar-item">
-                <Link to="/" activeClassName="active">
+                <Link to="/" activeClassName="active" style={{marginRight:"10px"}}>
                   Home
                 </Link>
               </a>
@@ -140,7 +140,7 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-              <a className="navbar-item">
+              <a className="navbar-item" style={{marginRight:"10px"}}>
               <Link to="/contact" activeClassName="active">
                 Contact US
               </Link>
@@ -159,8 +159,9 @@ const final = css`
  a{
   display: block;
   margin: 2px 10px;
-  margin-bottom:5px;
+  margin-bottom: 9.5px;
   font-size: 16px;
+  color: black;
   letter-spacing: 0.8px;
   width: -webkit-max-content;
   width: -moz-max-content;

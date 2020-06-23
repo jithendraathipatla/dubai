@@ -647,7 +647,7 @@ pre tt:after {
 }
 
 .active {
-  border-bottom: 2px solid #0c2be9;
+  border-bottom: 2px solid black;
 }
 
 .servicestext {
@@ -697,12 +697,14 @@ pre tt:after {
 
 a.navbar-item,
 .navbar-link {
-  color: #c8af28 !important;
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 1.2px;
-  margin-right: 42px;
+  color: #c8af28!important;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-right: 35px;
 }
+
+
 .navbar-item {
   padding: 0px !important;
 }
