@@ -162,7 +162,6 @@ const final = css`
   margin-bottom:5px;
   font-size: 16px;
   letter-spacing: 0.8px;
-  line-height: 1.5 !important;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
