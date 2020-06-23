@@ -161,11 +161,14 @@ const final = css`
   margin: 2px 10px;
   margin-bottom: 9.5px;
   font-size: 16px;
-  color: black;
+  color: white;
   letter-spacing: 0.8px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  :hover{
+    background: white;
+  }
  }
 `
 

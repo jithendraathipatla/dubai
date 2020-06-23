@@ -28,6 +28,9 @@ const Allpackages = () => {
 
   return (
     <LayoutComponent>
+       <div css={landing}>
+        <h1>All Packages in London(United Kingdom)</h1>
+       </div>
       <div>
         <SecondHOC title="All Packages in United Kingdom">
         <br/>
@@ -45,12 +48,6 @@ const Allpackages = () => {
                     Book a Consultation
                   </button>
                 </div>
-                <br/>
-                <div style={{padding:"0px 20px", paddingBottom:"20px"}}>
-                <span>Package Excludes – Foreign Trade Name, All Visa Costs,
-                Immigration Card of Company, Medical, Emirates ID & Insurance
-                Card</span>
-                </div>
               </div>
               <div style={{background:"#eeee"}}>
               <div css={secondmain}><h1>Abu dhabi</h1></div>
@@ -65,12 +62,7 @@ const Allpackages = () => {
                   Book a Consultation
                 </button>
               </div>
-              <br/>
-              <div style={{padding:"0px 20px", paddingBottom:"20px"}}>
-              <span>Package Excludes – Foreign Trade Name, All Visa Costs,
-              Immigration Card of Company, Medical, Emirates ID & Insurance
-              Card</span>
-              </div>
+             
               </div>
               <div style={{background:"#eeee"}}>
               <div css={secondmain}><h1>Sharja</h1></div>
@@ -85,12 +77,7 @@ const Allpackages = () => {
                   Book a Consultation
                 </button>
               </div>
-              <br/>
-              <div style={{padding:"0px 20px", paddingBottom:"20px"}}>
-              <span>Package Excludes – Foreign Trade Name, All Visa Costs,
-              Immigration Card of Company, Medical, Emirates ID & Insurance
-              Card</span>
-              </div>
+              
               </div>
               <div style={{background:"#eeee"}}>
               <div css={secondmain}><h1>Ajman</h1></div>
@@ -105,12 +92,7 @@ const Allpackages = () => {
                   Book a Consultation
                 </button>
               </div>
-              <br/>
-              <div style={{padding:"0px 20px", paddingBottom:"20px"}}>
-              <span>Package Excludes – Foreign Trade Name, All Visa Costs,
-              Immigration Card of Company, Medical, Emirates ID & Insurance
-              Card</span>
-              </div>
+              
               </div>
             </div>
             <br/>
@@ -136,9 +118,21 @@ const Allpackages = () => {
 
 export default Allpackages
 
+const landing = css`
+ background:url("https://www.shuraa.com/wp-content/uploads/2020/04/Company-Setup.jpg");
+ height: 370px;
+ width: 100%;
+ margin-bottom:-3%;
+ h1{
+  color: white;
+  padding-top: 14%;
+  padding-left: 32%;
+  font-size: 30px;
+ }
+`
 const one = css`
  display: flex;
- padding: 10px;
+ padding: 7px;
  border-bottom: 1px solid white;
  :nth-child(10){
    border-bottom:none;
@@ -154,7 +148,7 @@ const one = css`
 
 `
 const secondmain = css`
- background: green;
+ background: #5a7e84;
  padding:20px 0px;
  text-align: center;
  h1{
