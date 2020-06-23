@@ -10,32 +10,40 @@ const HowitWorks = () => {
   return (
       <>
     <div style={{ textAlign: "center" }}>
-    <Titlecomponent title="How it Works ?" />
+    <Titlecomponent title="Start Your Business In London Today" />
   </div>
     <div css={main}>
       
       <div css={content}>
         <div>
           <GiTeamIdea />
-          <h1>Select a business problem</h1>
+          <h1>Send us a quick enquiry</h1>
           <h2>Look for your query to be solved</h2>
-          <div css={right}>
-            <FiChevronRight />
+          <br/>
+          <div style={{textAlign:"center", border:"none", padding:"10px 0px"}}>
+           <button className="button is-link is-small">Quick Enquiry</button>
           </div>
         </div>
         <div>
           <BsPersonCheckFill />
-          <h1>Choose a Mentor</h1>
+          <h1>Book an Apointment</h1>
           <h2>Select from top 20+ highly Professional Mentors</h2>
-          <div css={right}>
-            <FiChevronRight />
-          </div>
+          <br/>
+          <div style={{textAlign:"center", border:"none", padding:"10px 0px"}}>
+          <button className="button is-link is-small">Book Appointment</button>
+         </div>
         </div>
         <div>
           <IoMdLaptop />
-          <h1>Start a section</h1>
+          <h1>Speak to a Business Consultant</h1>
           <h2>Book an appointment and start the session</h2>
+          <br/>
+          <div style={{textAlign:"center", display:"flex", justifyContent:"space-around", border:"none", padding:"10px 0px"}}>
+          <button className="button is-link is-small">Call Now</button>
+          <button className="button is-link is-danger is-small">What`s app</button>
+         </div>
         </div>
+       
       </div>
     </div>
     </>
@@ -47,7 +55,6 @@ export default HowitWorks
 const main = css`
 margin: 0px 4%;
 padding:30px;
-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
 `
 
 const content = css`
@@ -72,27 +79,19 @@ const content = css`
       color: black;
     }
   }
-  div :nth-child(1) {
-    border-right: 1px solid #eeee;
+  div {
+    border: 1px solid #eeee;
     position: relative;
-  }
-  div :nth-child(2) {
-    border-right: 1px solid #eeee;
-    position: relative;
+    padding:30px 10px;
+    :nth-child(1){
+      background: #ffeb3b;
+    }
+    :nth-child(2){
+      background: #00e8ff8f;
+    }
+    :nth-child(3){
+      background: gold;
+    }
   }
 `
 
-const right = css`
-  position: absolute;
-  top: 40%;
-  right: -17px;
-  width: 7.5%;
-  svg {
-    height: 30px !important;
-    border-radius: 50%;
-    background: white;
-    border: 1px solid #eeee;
-    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
-    color: black !important;
-  }
-`

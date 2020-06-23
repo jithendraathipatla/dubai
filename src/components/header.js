@@ -159,6 +159,7 @@ const final = css`
  a{
   display: block;
   margin: 2px 10px;
+  margin-bottom:5px;
   font-size: 16px;
   letter-spacing: 0.8px;
   width: -webkit-max-content;
