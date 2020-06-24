@@ -80,10 +80,17 @@ const container = css`
 const message= css`
  padding:0px 10%;
  color: white;
+ text-align: justify;
  h1{
      text-align: center;
      margin-top:30px;
      margin-bottom:15px;
      font-size:18px;
+ }
+ span{
+    letter-spacing: 0.5px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 30px; 
  }
 `
