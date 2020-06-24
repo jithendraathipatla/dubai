@@ -9,6 +9,7 @@ import MentorsCOmponent from '../components/image'
 import IndustriesandSpecializationcomponent from '../components/specilizationindustries'
 import ContactComponent from '../components/contactus'
 import TitleComponent from '../components/title'
+import ClientTestimonials from '../components/slickslider';
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = () => (
     <IndustriesandSpecializationcomponent/>
     <hr/>
     <Howitworkscomponent />
+    <ClientTestimonials/>
     <ContactComponent/>
   </Layout>
 )
