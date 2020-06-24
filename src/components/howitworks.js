@@ -52,7 +52,7 @@ const HowitWorks = () => {
 export default HowitWorks
 
 const main = css`
-margin: 0px 4%;
+margin: 0px 2%;
 padding:30px;
 `
 
@@ -75,22 +75,13 @@ const content = css`
     svg {
       height: 75px;
       width: 100%;
-      color: black;
+      color: #2E9BA1;
     }
   }
   div {
     border: 1px solid #eeee;
     position: relative;
     padding:30px 10px;
-    :nth-child(1){
-      background: #ffeb3b;
-    }
-    :nth-child(2){
-      background: #00e8ff8f;
-    }
-    :nth-child(3){
-      background: gold;
-    }
   }
 `
 

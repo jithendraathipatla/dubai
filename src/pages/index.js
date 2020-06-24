@@ -21,6 +21,7 @@ const IndexPage = () => (
     <IndustriesandSpecializationcomponent/>
     <hr/>
     <Howitworkscomponent />
+    <hr/>
     <ClientTestimonials/>
     <ContactComponent/>
   </Layout>

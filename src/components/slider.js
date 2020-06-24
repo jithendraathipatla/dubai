@@ -12,17 +12,21 @@ const Slider = () => {
     <div>
       <div style={{ position: "relative", marginTop:"44px", marginBottom:"-130px" }}>
         <div css={first}>
-         <img src={FirstSliderImage}/>
+         <img src="https://www.shuraa.com/wp-content/uploads/2020/04/Thumbnail0.jpg"/>
         </div>
         <br/>
         <div css={two}>
-          <div>
-           
-          </div>
+          
           <div css={card}>
            
-            <h1>Start Your Business in UK</h1>
-            
+            <h1>Start a business from the safety of your home</h1>
+            <span>Get an instant business license, in less than 1 hour, for as low as 15,500* Pounds</span>
+            <br/>
+            <br/>
+            <div style={{display:"flex", justifyContent:"space-around", margin:"0px 28%"}}>
+             <button className="button is-link">KNOW MORE</button>
+             <button className="button is-primary">BOOK A CONSULTATION</button>
+            </div>
           </div>
           
         </div>
@@ -35,26 +39,20 @@ export default Slider
 
 const first = css`
  img{
-   height: 55vh;
+   height: 75vh;
    width:100%;
    object-fit: cover;
  }
 `
 const two = css`
   display:grid;
-  grid-template-columns: 4fr 4fr 4fr;
+  grid-template-columns: 8fr;
   margin: 0px 40px;
   position: absolute;
-  top: 30%;
+  top: 18%;
   z-index: 40;
 `
 const card = css`
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  background-color: #00000070;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
   margin: 0px 50px;
   text-align: center;
   padding:10px 4px;
@@ -64,12 +62,20 @@ const card = css`
     color: black;
   }
   h1{
-    font-size: 20px;
+    font-size: 56px;
     font-weight: 500;
+    text-transform: uppercase;
     color: #ffff;
     margin-top:7px;
     padding:0px 40px;
     padding-bottom:10px;
+    line-height:56px;
   }
-  
+  span{
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.363157894736842em;
+    font-weight: 400;
+  }
 `

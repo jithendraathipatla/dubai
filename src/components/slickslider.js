@@ -36,11 +36,27 @@ const SlickDemo = () => {
             )
         })
     }
+     
     
+    function wework(){
+        return(
+            <div>
+             <div style={{textAlign: "center"}}>
+              <TitleComponent title="We work closely with government Agencies"/>
+              
+              <img src="https://www.shuraa.com/wp-content/uploads/2020/05/Government-slide-03.jpg"/>
+             </div>
+            </div>
+        )
+    }
+
+
     var settings = {
         dots: true
       };
       return (
+        <div>
+        {wework()}
         <div css={container}>
            <div style={{textAlign:"center"}}>
             <h1 style={{fontSize:"20px", color: "white", fontWeight:"500", letterSpacing:"1.3px"}}>Client Testimonilas</h1>
@@ -49,6 +65,7 @@ const SlickDemo = () => {
           <Slider {...settings}>
             {display()}
           </Slider>
+        </div>
         </div>
       );
 }
