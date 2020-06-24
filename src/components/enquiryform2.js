@@ -29,6 +29,7 @@ const ValidationSchemaExample = () => (
         firstName: '',
         lastName: '',
         email: '',
+        message:'',
       }}
       validationSchema={SignupSchema}
       onSubmit={values => {
@@ -51,6 +52,11 @@ const ValidationSchemaExample = () => (
           <label class="label">Email</label>
           <Field name="email" type="email" className={errors.email ? "input is-danger" : "input"}/>
           </div>
+          <div class="field">
+          <label class="label">Your Message</label>
+          <Field name="message" type="email" className={errors.message ? "input is-danger" : "input"}/>
+          </div>
+
           <div> <br/><button type="submit" className="button is-link">Submit</button></div>
          
         </Form>
