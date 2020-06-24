@@ -728,6 +728,7 @@ a.navbar-item,
 
 @media screen and (min-width: 1024px){
 .navbar-dropdown {
-    background-color: #000000b5 !important ;
+    background-color: #0e2e34 !important ;
+    border-color: #0e2e34;
 }
 }

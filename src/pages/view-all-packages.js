@@ -2,7 +2,7 @@ import React from "react"
 import SecondHOC from "../components/HOC/allpages"
 import LayoutComponent from "../components/layout"
 import { css } from "@emotion/core"
-import { FaCheck } from "react-icons/fa"
+import { FaCheck, FaTimesCircle } from "react-icons/fa"
 
 const Allpackages = () => {
   const dubai = [
@@ -15,6 +15,17 @@ const Allpackages = () => {
     { name: "Stamp of The Company" },
     { name: "Complete Documentation" },
   ]
+
+  const Ajman = [
+    { name: "Free Business Setup Consultation", icon: <FaCheck/> },
+    { name: "Dedicated Consultant", icon: <FaCheck/> },
+    { name: "DED License Fees", icon: <FaCheck/> },
+    { name: "Registration Fees", icon: <FaCheck/> },
+    { name: "Office Space*", icon: <FaTimesCircle/> },
+    { name: "UAE Service Agent", icon: <FaCheck/> },
+    { name: "Stamp of The Company", icon: <FaCheck/> },
+    { name: "Complete Documentation", icon: <FaCheck/> },
+  ]
   const dubai_display = () => {
     return dubai.map((item, i) => {
       return (
@@ -26,10 +37,23 @@ const Allpackages = () => {
     })
   }
 
+  const display_rest = () => {
+
+    return Ajman.map((item, i) => {
+      return (
+        <div key={i} css={one}>
+          <div css={item.name === "Office Space*" ?  ABC : null}>{item.icon}</div> 
+          <div>{item.name}</div>
+        </div>
+      )
+    })
+  }
+
   return (
     <LayoutComponent>
        <div css={landing}>
-        <h1>All Packages in London(United Kingdom)</h1>
+        <h1>UNITED KINGDOM MAINLAND COMPANY INCORPORATION</h1>
+        <span>Company formation packages starting from AED 14,000</span>
        </div>
       <div>
         <SecondHOC title="All Packages in United Kingdom">
@@ -37,6 +61,7 @@ const Allpackages = () => {
             <div css={main}>
               <div style={{background:"#eeee"}}>
                 <div css={secondmain}><h1>Dubai</h1></div>
+               
                 <div css={thirdmain}>
                   <h1>ADE 15,500*</h1>
                   <span>First Year</span>
@@ -48,6 +73,8 @@ const Allpackages = () => {
                     Book a Consultation
                   </button>
                 </div>
+                <span css={fourthmain}><h2>Popular</h2></span>
+                <div style={{margin:"24px"}}>Package Excludes – Foreign Trade Name, All Visa Costs, Immigration Card of Company, Medical, Emirates ID & Insurance Card</div>
               </div>
               <div style={{background:"#eeee"}}>
               <div css={secondmain}><h1>Abu dhabi</h1></div>
@@ -55,14 +82,14 @@ const Allpackages = () => {
                 <h1>ADE 25,500*</h1>
                 <span>First Year</span>
               </div>
-              {dubai_display()}
+              {display_rest()}
               <br/>
               <div style={{textAlign:"center"}}>
                 <button className="button is-link">
                   Book a Consultation
                 </button>
               </div>
-             
+             <div style={{margin:"24px"}}>Package Excludes – Foreign Trade Name, All Visa Costs, Immigration Card of Company, Medical, Emirates ID & Insurance Card</div>
               </div>
               <div style={{background:"#eeee"}}>
               <div css={secondmain}><h1>Sharja</h1></div>
@@ -70,14 +97,15 @@ const Allpackages = () => {
                 <h1>ADE 11,500*</h1>
                 <span>First Year</span>
               </div>
-              {dubai_display()}
+              {display_rest()}
               <br/>
               <div style={{textAlign:"center"}}>
                 <button className="button is-link">
                   Book a Consultation
                 </button>
               </div>
-              
+              <div style={{margin:"24px"}}>Package Excludes – Foreign Trade Name, All Visa Costs, Immigration Card of Company, Medical, Emirates ID & Insurance Card</div>
+
               </div>
               <div style={{background:"#eeee"}}>
               <div css={secondmain}><h1>Ajman</h1></div>
@@ -85,17 +113,20 @@ const Allpackages = () => {
                 <h1>ADE 10,500*</h1>
                 <span>First Year</span>
               </div>
-              {dubai_display()}
+              {display_rest()}
               <br/>
               <div style={{textAlign:"center"}}>
                 <button className="button is-link">
                   Book a Consultation
                 </button>
               </div>
-              
+              <div style={{margin:"24px"}}>Package Excludes – Foreign Trade Name, All Visa Costs, Immigration Card of Company, Medical, Emirates ID & Insurance Card</div>
               </div>
             </div>
             <br/>
+            <div css={aftercard}>
+             <h1>UAE FREEZONE COMPANY SETUP COST</h1>
+            </div>
             Planning on company registration in Dubai freezone? Dubai offers
             more than 20 freezones and has some of the most prestigious
             freezones in the UAE. Dubai freezones offer world-class business
@@ -110,6 +141,11 @@ const Allpackages = () => {
             conduct business within UAE, you can simply partner with a local
             distributor and you will be free to trade within UAE as well, speak
             to a consult for free to know your options.
+            <br/>
+            <br/>
+            <div css={aftercard}>
+            <h1>A generic list of costs for a freezone company setup (may or may not apply to some freezones)</h1>
+            </div>
         </SecondHOC>
       </div>
     </LayoutComponent>
@@ -118,16 +154,39 @@ const Allpackages = () => {
 
 export default Allpackages
 
+const aftercard = css`
+  h1{
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.9;
+    margin-bottom:10px;
+  }
+`
+
+
+const ABC = css`
+ color: red;
+`
+
 const landing = css`
- background:url("https://www.shuraa.com/wp-content/uploads/2020/04/Company-Setup.jpg");
+ background:url("https://www.shuraa.com/wp-content/uploads/2020/04/Packages-02.jpg");
  height: 370px;
  width: 100%;
  margin-bottom:-3%;
  h1{
   color: white;
-  padding-top: 14%;
-  padding-left: 32%;
+  padding-top: 11.2%;
+  font-weight: 700;
+  padding-left: 19%;
+  letter-spacing:0.9;
   font-size: 30px;
+  line-height: 1.384615384615385em;
+ }
+ span{
+  color: #e9e9e9;
+  padding-top: 14%;
+  padding-left: 36%;
  }
 `
 const one = css`
@@ -147,7 +206,29 @@ const one = css`
  }
 
 `
+
+const fourthmain = css`
+ position: absolute;
+ background-color: #2A8E98;
+ color: #fff;
+
+  h2{ 
+    top: -557px;
+    position: absolute;
+    left: 203px;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.8);
+    background: blueviolet;
+    height: 31px;
+    padding: 6px 24px;
+    width: 102px;
+    right: unset;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(34deg);
+  }
+`
 const secondmain = css`
+ position: relative;
  background: #5a7e84;
  padding:20px 0px;
  text-align: center;
