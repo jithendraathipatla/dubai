@@ -11,8 +11,6 @@ const Contactuspage = (props) => {
       <div style={{margin:"0px 3%", textAlign:"justify"}}>
       {props.children}
       </div>
-      
-      <hr/>
       <LocationComponent/>
       </div>
   )
