@@ -250,8 +250,3 @@ const thirdmain = css`
   }
 `
 
-const main = css`
-  display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
-  grid-gap: 0px 40px;
-`

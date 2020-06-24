@@ -43,7 +43,6 @@ const SlickDemo = () => {
             <div>
              <div style={{textAlign: "center"}}>
               <TitleComponent title="We work closely with government Agencies"/>
-              
               <img src="https://www.shuraa.com/wp-content/uploads/2020/05/Government-slide-03.jpg"/>
              </div>
             </div>
