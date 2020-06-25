@@ -147,25 +147,7 @@ const Allpackages = () => {
           </div></div>
             
           
-          <div style={{textAlign:"center"}}>
-          <h1>
-          The costs of offshore company setup in the UK
-          </h1>
-
-          <ul css={list}>
-            <li><FaDotCircle/> Freezone company registration fee</li>
-            <li><FaDotCircle/> Freezone license fee</li>
-            <li><FaDotCircle/> Rental costs – Smart desk, office units, permanent office or
-              warehouses.
-            </li>
-            <li><FaDotCircle/> Share capital requirements </li>
-            <li><FaDotCircle/> Freezone visa fees</li>
-            <li><FaDotCircle/> Bank guarantee charges</li>
-            <li><FaDotCircle/> Registered Agent Fees</li>
-            <li><FaDotCircle/> Name approval charges</li>
-          </ul>
-        </div>
-          </div>
+         </div>
          
 
         </SecondHOC>
