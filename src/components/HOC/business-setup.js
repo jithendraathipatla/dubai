@@ -2,6 +2,8 @@ import React from "react"
 import TitleComponent from "../title"
 import { css } from "@emotion/core"
 import LocationComponent from "../contactus"
+import { Link } from "gatsby"
+import {FaBackward} from 'react-icons/fa'
 
 const BusinessSetup = props => {
   return (
@@ -12,6 +14,9 @@ const BusinessSetup = props => {
       </div>
 
       <div css={second}>
+        <div style={{ textAlign: "right" }}>
+          <Link to="/uaemainland"><FaBackward/> To UAE Main Land</Link>
+        </div>
         <h4>{props.hetchfour}</h4>
 
         {props.children}
