@@ -54,7 +54,7 @@ const Header = () => {
                     View All Packages
                   </Link>
                   <Link to="/dubai-packages" activeClassName="active">
-                    Dhubai
+                    Dubai
                   </Link>
                   <Link to="/abu-dha-bi-packages" activeClassName="active">
                     Abu Dhabi
@@ -66,7 +66,7 @@ const Header = () => {
               </div>
 
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">Services</a>
+                <a className="navbar-link is-arrowless">Property Services</a>
 
                 <div className="navbar-dropdown" css={final}>
                   <Link to="/business-licenses" activeClassName="active">
@@ -90,21 +90,7 @@ const Header = () => {
                 </div>
               </div>
 
-              <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">Offices</a>
-
-                <div className="navbar-dropdown" css={final}>
-                  <Link to="/business-centers" activeClassName="active">
-                    Business Centers
-                  </Link>
-                  <Link to="/offices-for-rent" activeClassName="active">
-                    Offices for Rent
-                  </Link>
-                  <Link to="/smart-desks" activeClassName="active">
-                    Smart Desks
-                  </Link>
-                </div>
-              </div>
+              
 
               <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link is-arrowless">Properties</a>
@@ -118,6 +104,12 @@ const Header = () => {
                 </Link>
                 <Link to="/smart-desks" activeClassName="active">
                 Property Leasing
+                </Link>
+                <Link to="/business-centers" activeClassName="active">
+                 Business Centers
+                </Link>
+                <Link to="/smart-desks" activeClassName="active">
+                 Smart Desks
                 </Link>
               </div>
             </div>
