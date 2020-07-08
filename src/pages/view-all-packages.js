@@ -192,7 +192,7 @@ const Allpackages = () => {
           </div>
           <br/>
           <div css={aftercard}>
-          <h1>UK OFFSHORE COMPANY FORMATION COST</h1>
+          <h1>UAE OFFSHORE COMPANY FORMATION COST</h1>
         
         Planning on company registration in Dubai freezone? Dubai offers more
         than 20 freezones and has some of the most prestigious freezones in
@@ -213,7 +213,7 @@ const Allpackages = () => {
         <br />
         <div css={aftercard}>
           <h1>
-          The costs of offshore company setup in the UK
+          The costs of offshore company setup in the UAE
           </h1>
 
           <ul css={list}>
