@@ -91,13 +91,13 @@ export default function ScrollableTabsButtonAuto(props) {
        {props.contentfour}
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Item Five
+        {props.contentfive}
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Item Six
+        {props.contentsix}
       </TabPanel>
       <TabPanel value={value} index={6}>
-        Item Seven
+       {props.contentseven}
       </TabPanel>
     </div>
   );

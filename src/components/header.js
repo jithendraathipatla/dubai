@@ -33,15 +33,15 @@ const Header = () => {
 
                 <div className="navbar-dropdown" css={final}>
                   <Link to="/uaemainland" activeClassName="active">
-                    London Main Land
+                   UAE Main Land
                   </Link>
 
                   <Link to="/uae-free-zones" activeClassName="active">
-                    London Free zones
+                   UAE Free zones
                   </Link>
 
                   <Link to="/uae-off-shores" activeClassName="active">
-                    London Off Shores
+                   UAE Off Shores
                   </Link>
                 </div>
               </div>

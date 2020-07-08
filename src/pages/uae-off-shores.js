@@ -14,11 +14,11 @@ const Contactuspage = () => {
       <LayoutComponent>
          <div style={{marginTop:"6%"}}></div>
         <div style={{textAlign: "center"}}>
-        <TitleComponent title="Comapany Setup in UAE Main Land"/>
+        <TitleComponent title="Comapany Setup in UAE Off Shore"/>
         </div>
         <br/>
         <div css={main}>
-        <TabsContainerComponent labelone="Dubai Main Land" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharja Main Lan" labelthree="Abu Dhabi Mainland" contentthree={<Abudhabimainland/>} labelfour="Ajman Mainland" contentfour={<Ajmanmainland/>}/>
+        <TabsContainerComponent labelone="Dubai Off Shore" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharja Off Shore" labelthree="Abu Dhabi Off Shore" contentthree={<Abudhabimainland/>} labelfour="Ajman Off Shore" contentfour={<Ajmanmainland/>}labelfive="Fujairah Off Shore" contentfive={<Abudhabimainland/>} labelsix="Umm Al Qwain Off Shore" contentsix={<Ajmanmainland/>} labelseven="Ras Al Khaimah Off Shore" contentseven={<Abudhabimainland/>}/>
         </div>
         <hr/>
         <ContactUsComponent/>

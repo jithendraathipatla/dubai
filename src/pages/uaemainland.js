@@ -18,7 +18,7 @@ const Contactuspage = () => {
         </div>
         <br/>
         <div css={main}>
-        <TabsContainerComponent labelone="Dubai Main Land" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharja Main Lan" labelthree="Abu Dhabi Mainland" contentthree={<Abudhabimainland/>} labelfour="Ajman Mainland" contentfour={<Ajmanmainland/>}/>
+        <TabsContainerComponent labelone="Dubai Main Land" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharja Main Lan" labelthree="Abu Dhabi Mainland" contentthree={<Abudhabimainland/>} labelfour="Ajman Mainland" contentfour={<Ajmanmainland/>} labelfive="Fujairah Mainland" contentfive={<Abudhabimainland/>} labelsix="Umm Al Qwain Mainland" contentsix={<Ajmanmainland/>} labelseven="Ras Al Khaimah Mainland" contentseven={<Abudhabimainland/>}/>
         </div>
         <hr/>
         <ContactUsComponent/>

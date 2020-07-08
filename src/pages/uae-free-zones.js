@@ -18,7 +18,7 @@ const Contactuspage = () => {
         </div>
         <br/>
         <div css={main}>
-        <TabsContainerComponent labelone="Dubai Free Zone" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharja Free Zone" labelthree="Abu Dhabi Free Zone" contentthree={<Abudhabimainland/>} labelfour="Ajman Free Zone" contentfour={<Ajmanmainland/>}/>
+        <TabsContainerComponent labelone="Dubai Free Zone" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharja Free Zone" labelthree="Abu Dhabi Free Zone" contentthree={<Abudhabimainland/>} labelfour="Ajman Free Zone" contentfour={<Ajmanmainland/>} labelfive="Fujairah Free Zone" contentfive={<Abudhabimainland/>} labelsix="Umm Al Qwain Free Zone" contentsix={<Ajmanmainland/>} labelseven="Ras Al Khaimah Free Zone" contentseven={<Abudhabimainland/>}/>
         </div>
         <hr/>
         <ContactUsComponent/>

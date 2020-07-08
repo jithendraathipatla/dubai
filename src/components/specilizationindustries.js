@@ -71,8 +71,8 @@ const Specilizationindustries = () => {
     },
     {
       icon: <FaMoneyBillAlt />,
-      title: "Sponsorship & Visa Services",
-      para: "Our Business setup provides reliable and trustworthy local sponsorship and visa services that ensure as little as possible"    },
+      title: "Properties",
+      para: "Find all Properties for Leasing,rent & purchasing in UAE. Search through a wide range of Properties and get the best Deals"    },
     {
       icon: <GoNote />,
       title: "Pro Services",
