@@ -75,11 +75,14 @@ const container = css`
   padding: 40px;
   padding-top:0px;
   background:white;
+  margin-bottom:10px;
 `
 
 const message = css`
-  padding: 0px 10%;
-  text-align: justify;
+padding: 21px 6%;
+background: #6d549d38;
+text-align: justify;
+border-radius: 13px;
   h1 {
     text-align: center;
     margin-top: 30px;
