@@ -4,10 +4,10 @@ import {css} from '@emotion/core'
 import TitleComponent from '../components/title'
 import ContactUsComponent from '../components/contactus'
 import TabsContainerComponent from '../components/tabscontainer'
-import Dubaimainland from '../components/subcomponents/dubaifreezone'
-import Abudhabimainland from '../components/subcomponents/abudhabi'
-import Sharjaminland from '../components/subcomponents/sharjamainland'
-import Ajmanmainland from '../components/subcomponents/ajman'
+import Dubaimainland from '../components/companysetup/dubaifreezone'
+import Abudhabimainland from '../components/companysetup/abudhabi'
+import Sharjaminland from '../components/companysetup/sharjamainland'
+import Ajmanmainland from '../components/companysetup/ajman'
 
 const Contactuspage = () => {
   return (

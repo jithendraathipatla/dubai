@@ -57,6 +57,11 @@ const Dubaimainland = () => {
             <h1>{item.name}</h1>
           </div>
           <span>{item.paragraph}</span>
+          <br/>
+          <br/>
+          <div>
+            <button className="button is-link">View More</button>
+          </div>
         </div>
       )
     })

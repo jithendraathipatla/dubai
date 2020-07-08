@@ -4,10 +4,10 @@ import {css} from '@emotion/core'
 import TitleComponent from '../components/title'
 import ContactUsComponent from '../components/contactus'
 import TabsContainerComponent from '../components/tabscontainer'
-import Dubaimainland from '../components/subcomponents/dubaimainland'
-import Abudhabimainland from '../components/subcomponents/abudhabi'
-import Sharjaminland from '../components/subcomponents/sharjamainland'
-import Ajmanmainland from '../components/subcomponents/ajman'
+import Dubaimainland from '../components/companysetup/dubaimainland'
+import Abudhabimainland from '../components/companysetup/abudhabi'
+import Sharjaminland from '../components/companysetup/sharjamainland'
+import Ajmanmainland from '../components/companysetup/ajman'
 
 const Contactuspage = () => {
   return (
@@ -20,7 +20,6 @@ const Contactuspage = () => {
         <div css={main}>
         <TabsContainerComponent labelone="Dubai Main Land" contentone={<Dubaimainland/>} contenttwo={<Sharjaminland/>} labeltwo="Sharjah Main Land" labelthree="Abu Dhabi Mainland" contentthree={<Abudhabimainland/>} labelfour="Ajman Mainland" contentfour={<Ajmanmainland/>} labelfive="Fujairah Mainland" contentfive={<Abudhabimainland/>} labelsix="Umm Al Qwain Mainland" contentsix={<Ajmanmainland/>} labelseven="Ras Al Khaimah Mainland" contentseven={<Abudhabimainland/>}/>
         </div>
-        <hr/>
         <ContactUsComponent/>
       </LayoutComponent>
   )
