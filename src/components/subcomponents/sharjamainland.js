@@ -64,7 +64,7 @@ const Dubaimainland = () => {
   return (
     <div>
       <div css={main}>
-        <h1>Company Spaces from Sharja Main Land</h1>
+        <h1>Company Spaces from Sharjah Main Land</h1>
       </div>
       <br />
       <span>
