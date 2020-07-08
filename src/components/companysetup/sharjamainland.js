@@ -113,12 +113,7 @@ const main = css`
   }
 `
 
-const sty = css`
-  display: grid;
-  grid-template-columns: 4fr 4fr 4fr;
-  grid-gap: 30px;
-  text-align: justify;
-`
+
 const card = css`
   border-radius: 2px;
   h1 {

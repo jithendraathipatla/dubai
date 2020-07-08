@@ -30,6 +30,3 @@ export default Contactuspage;
 const main = css`
  margin:2px 5%;
 `
-
-
-
