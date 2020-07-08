@@ -9,7 +9,7 @@ const HowitWorks = () => {
   return (
       <>
     <div style={{ textAlign: "center" }}>
-    <Titlecomponent title="Start Your Business In London Today" />
+    <Titlecomponent title="Start Your Business In UAE Today" />
   </div>
     <div css={main}>
       
@@ -39,7 +39,7 @@ const HowitWorks = () => {
           <br/>
           <div style={{textAlign:"center", display:"flex", justifyContent:"space-around", border:"none", padding:"10px 0px"}}>
           <button className="button is-link is-small">Call Now</button>
-          <button className="button is-link is-danger is-small">What`s app</button>
+          <button className="button is-link is-small">What`s app</button>
          </div>
         </div>
        
@@ -59,6 +59,7 @@ padding:30px;
 const content = css`
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
+  grid-gap:20px;
   div {
     text-align: center;
     h1 {
@@ -75,13 +76,21 @@ const content = css`
     svg {
       height: 75px;
       width: 100%;
-      color: #2E9BA1;
+      color: #6d549d;
     }
   }
   div {
-    border: 1px solid #eeee;
+    border: 2px solid white;
     position: relative;
     padding:30px 10px;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+    :nth-child(odd) div{
+     box-shadow: none;
+    }
+    :nth-child(2) div{
+      box-shadow: none;
+    }
   }
 `
 

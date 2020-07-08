@@ -31,19 +31,4 @@ export default IndexPage
 
 
 
-const main = css`
- display: block;
- flex:auto;
- background: linear-gradient(to right,black,#C8AF28);
- text-align:center;
- padding:35px 10px;
- justify-content: space-around;
- color: white;
- font-size: 40px;
- h1{
-  font-size: 16px;
-  margin-top: 7px;
-  letter-spacing: 0.5px;
-  margin-bottom:30px;
- }
-`
+

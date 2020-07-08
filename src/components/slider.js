@@ -12,7 +12,7 @@ const Slider = () => {
     <div>
       <div style={{ position: "relative", marginTop:"44px", marginBottom:"-130px" }}>
         <div css={first}>
-         <img src="https://www.shuraa.com/wp-content/uploads/2020/04/Thumbnail0.jpg"/>
+         <img src="https://www.fstuae.com/images/banner-3.png"/>
         </div>
         <br/>
         <div css={two}>
@@ -25,7 +25,7 @@ const Slider = () => {
             <br/>
             <div style={{display:"flex", justifyContent:"space-around", margin:"0px 28%"}}>
              <button className="button is-link">KNOW MORE</button>
-             <button className="button is-primary">BOOK A CONSULTATION</button>
+             <button className="button is-link">BOOK A CONSULTATION</button>
             </div>
           </div>
           

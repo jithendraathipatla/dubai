@@ -1,7 +1,7 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { Link } from "gatsby"
-import Logo from "../images/logo.jpg"
+import Logo from "../images/logo.jpeg"
 import "../components/layout.css"
 
 const Header = () => {
@@ -60,7 +60,7 @@ const Header = () => {
                     Abu Dhabi
                   </Link>
                   <Link to="/sharja-packages" activeClassName="active">
-                    Sharja
+                    Sharjah
                   </Link>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const Header = () => {
                   Properties for Rent
                 </Link>
                 <Link to="/smart-desks" activeClassName="active">
-                  Properties for Re-sale
+                Property Leasing
                 </Link>
               </div>
             </div>
@@ -178,13 +178,14 @@ const final = css`
   margin: 2px 10px;
   margin-bottom: 9.5px;
   font-size: 16px;
-  color: #9d9d9d;
+  color: white;
   letter-spacing: 0.8px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   :hover{
     color: white !important;
+    opacity: 0.7;
   }
  }
 `

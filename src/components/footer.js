@@ -21,7 +21,7 @@ const footer = () => {
           <TitleComponent title="Quick Links" />
           <ul>
             <li>Company Formation & Licensing</li>
-            <li>Sponsorship & Visa Services</li>
+            <li>Property Rent & Buy Services</li>
             <li>Pro Services</li>
             <li>Banking Assistance</li>
             <li>Investor Rights Protection</li>

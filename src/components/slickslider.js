@@ -18,7 +18,7 @@ const SlickDemo = () => {
     },
     {
       name:
-        "Mohammed Ali, VP Marketing & Communication, Eureka Aqua Trading LLC",
+        "Mohammed Ali, Global Innovation Manager",
       message:
         "I just wanted to let you know that SEVAGO team has been doing a tremendous job on our requests. They are turning things around quickly, coming up with approaches and suggestions on their own and are truly partnering with us on different initiatives. We are deeply appreciative of all their effort and engagement.",
     },
@@ -45,7 +45,7 @@ const SlickDemo = () => {
       <div>
         <div style={{ textAlign: "center" }}>
           <TitleComponent title="We work closely with government Agencies" />
-          <img src="https://www.shuraa.com/wp-content/uploads/2020/05/Government-slide-03.jpg" />
+          <img src="https://www.shuraa.com/wp-content/uploads/2020/05/Government-slide-03.jpg" style={{marginBottom:"-25px"}}/>
         </div>
       </div>
     )
@@ -57,7 +57,7 @@ const SlickDemo = () => {
   return (
     <div>
       {wework()}
-      
+      <hr/>
       <div css={container}>
         <div style={{ textAlign: "center" }}>
           <TitleComponent title="Client  Testimonials"/>
@@ -73,7 +73,8 @@ export default SlickDemo
 
 const container = css`
   padding: 40px;
-  background:#eeee;
+  padding-top:0px;
+  background:white;
 `
 
 const message = css`

@@ -12,7 +12,7 @@ const Title = (props) => {
 export default Title;
 
 const title= css`
-color: #c8af28;
+color: #099bd7;
 font-size: 20px;
 font-weight: 500;
 letter-spacing: 1.3px;
