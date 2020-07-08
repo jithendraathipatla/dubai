@@ -107,6 +107,23 @@ const Header = () => {
               </div>
 
               <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link is-arrowless">Properties</a>
+
+              <div className="navbar-dropdown" css={final}>
+                <Link to="/business-centers" activeClassName="active">
+                  Properties for Sale
+                </Link>
+                <Link to="/offices-for-rent" activeClassName="active">
+                  Properties for Rent
+                </Link>
+                <Link to="/smart-desks" activeClassName="active">
+                  Properties for Re-sale
+                </Link>
+              </div>
+            </div>
+
+
+              <div className="navbar-item has-dropdown is-hoverable">
                 <a className="navbar-link is-arrowless">What`s new</a>
 
                 <div className="navbar-dropdown" css={final}>

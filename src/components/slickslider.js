@@ -57,18 +57,10 @@ const SlickDemo = () => {
   return (
     <div>
       {wework()}
+      
       <div css={container}>
         <div style={{ textAlign: "center" }}>
-          <h1
-            style={{
-              fontSize: "20px",
-              color: "white",
-              fontWeight: "500",
-              letterSpacing: "1.3px",
-            }}
-          >
-            Client Testimonilas
-          </h1>
+          <TitleComponent title="Client  Testimonials"/>
         </div>
         <br />
         <Slider {...settings}>{display()}</Slider>
@@ -81,12 +73,11 @@ export default SlickDemo
 
 const container = css`
   padding: 40px;
-  background: #419be0;
+  background:#eeee;
 `
 
 const message = css`
   padding: 0px 10%;
-  color: white;
   text-align: justify;
   h1 {
     text-align: center;
