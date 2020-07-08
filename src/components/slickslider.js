@@ -12,19 +12,20 @@ const SlickDemo = () => {
     },
 
     {
-      name: "Bhuvan",
+      name: "Vicki Roscoe Erickson, VP Marketing & Communication, TopLine",
       message:
-        "The professionals at Sevago Management and Consultancy really take the time to understand our unique business needs and have undoubtedly provided the critical support we require to efficiently manage processes in support of preparing our company for future business endeavors. We really appreciate the time they dedicate to helping our company constantly move forward. They are very professional and friendly. Mr. Jashvant deserves a special appreciation as he handles all the queries very efficiently and promptly. I would have no hesitation in recommending Sevago Management and Consultancy as they have always exceeded the expectations. I wholeheartedly endorse the Sevago team and recommend working with them to set up your business for success.",
+        "The SEVAGO team are ultimate rock stars! They are a highly professional, educated and experienced team that is dedicated to helping their clients achieve success. One of the best teams I have ever worked with – highly responsive, innovative and leverage best practices. From kick-off to project completion, they never miss a beat and are always there to answer questions and provide intelligent insight. Looking forward too many more projects ahead!",
     },
     {
-      name: "Gorge",
+      name:
+        "Mohammed Ali, VP Marketing & Communication, Eureka Aqua Trading LLC",
       message:
-        "The professionals at Sevago Management and Consultancy really take the time to understand our unique business needs and have undoubtedly provided the critical support we require to efficiently manage processes in support of preparing our company for future business endeavors. We really appreciate the time they dedicate to helping our company constantly move forward. They are very professional and friendly. Mr. Jashvant deserves a special appreciation as he handles all the queries very efficiently and promptly. I would have no hesitation in recommending Sevago Management and Consultancy as they have always exceeded the expectations. I wholeheartedly endorse the Sevago team and recommend working with them to set up your business for success.",
+        "I just wanted to let you know that SEVAGO team has been doing a tremendous job on our requests. They are turning things around quickly, coming up with approaches and suggestions on their own and are truly partnering with us on different initiatives. We are deeply appreciative of all their effort and engagement.",
     },
     {
-      name: "Peter Pan",
+      name: " Manager, Bank in UAE",
       message:
-        "The professionals at Sevago Management and Consultancy really take the time to understand our unique business needs and have undoubtedly provided the critical support we require to efficiently manage processes in support of preparing our company for future business endeavors. We really appreciate the time they dedicate to helping our company constantly move forward. They are very professional and friendly. Mr. Jashvant deserves a special appreciation as he handles all the queries very efficiently and promptly. I would have no hesitation in recommending Sevago Management and Consultancy as they have always exceeded the expectations. I wholeheartedly endorse the Sevago team and recommend working with them to set up your business for success.",
+        "I just wanted to let you know what a great job your guy has been doing with the Triggers. We are very excited about the models/segmentation strategy to help us reach our goal of contacting the right the people. This will help us concentrate our efforts and resources and end up incrementally better overall. He has been great at putting everything together, explaining the methodology and continuing to keep up the updated tracking and reporting coming in. Thanks",
     },
   ]
 
