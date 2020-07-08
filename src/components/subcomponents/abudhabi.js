@@ -75,14 +75,14 @@ const Dubaimainland = () => {
         connects major trading zones and is a cost-effective way to
         commercialise your business activity. The location stimulates the marine
         and shipping sector of the country. Hence, company formation in Sharjah
-        is a good option. Company formation in Sharjah mainland with Shuraa
+        is a good option. Company formation in Sharjah mainland with Sevago
         Business Setup is economical and has the least administrative
         procedures. Our business setup consultants in Sharjah sort everything
         out for you, which makes starting a business in Sharjah extremely simple
-        and convenient. At Shuraa, we assist multinational companies as well as
+        and convenient. At Sevago, we assist multinational companies as well as
         small and medium enterprises (SME) with getting their business licenses
         in Sharjah. We offer excellent startup deals on setting up a company in
-        Sharjah mainland. This makes opening a company in Sharjah, with Shuraa,
+        Sharjah mainland. This makes opening a company in Sharjah, with Sevago,
         even more attractive, as foreign investors can explore and participate
         in different sectors.
       </span>

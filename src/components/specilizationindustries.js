@@ -72,7 +72,7 @@ const Specilizationindustries = () => {
     {
       icon: <FaMoneyBillAlt />,
       title: "Properties",
-      para: "Find all Properties for Leasing,rent & purchasing in UAE. Search through a wide range of Properties and get the best Deals"    },
+      para: "Find all Properties for Leasing,rent & purchasing in UAE. Search through a wide range of Properties and get the best Deals."    },
     {
       icon: <GoNote />,
       title: "Pro Services",

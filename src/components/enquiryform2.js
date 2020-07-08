@@ -54,10 +54,10 @@ const ValidationSchemaExample = () => (
           </div>
           <div class="field">
           <label class="label">Your Message</label>
-          <Field name="message" type="email" className={errors.message ? "input is-danger" : "input"}/>
+          <Field name="message" type="text" className={errors.message ? "input is-danger" : "input"}/>
           </div>
 
-          <div> <br/><button type="submit" className="button is-link">Submit</button></div>
+          <div style={{marginTop:"5px"}}> <br/><button type="submit" className="button is-link">Submit</button></div>
          
         </Form>
       )}
