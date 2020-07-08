@@ -55,11 +55,11 @@ const Allpackages = () => {
   return (
     <LayoutComponent>
       <div css={landing}>
-        <h1>UNITED KINGDOM MAINLAND COMPANY INCORPORATION</h1>
+        <h1>UAE MAINLAND COMPANY INCORPORATION</h1>
         <span>Company formation packages starting from AED 14,000</span>
       </div>
       <div>
-        <SecondHOC title="All Packages in United Kingdom">
+        <SecondHOC title="All Packages in UAE">
           <br />
           <div css={main}>
             <div style={{ background: "#eeee" }}>
@@ -270,7 +270,7 @@ const landing = css`
     color: white;
     padding-top: 11.2%;
     font-weight: 700;
-    padding-left: 19%;
+    padding-left: 25%;
     letter-spacing: 0.9;
     font-size: 30px;
     line-height: 1.384615384615385em;
