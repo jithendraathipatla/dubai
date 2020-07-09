@@ -73,7 +73,7 @@ const Dubaimainland = () => {
     })
   }
   return (
-    <div>
+    <div style={{textAlign:"justify"}}>
       <div css={main}>
         <h1>Company Spaces from Dubai Main Land</h1>
       </div>

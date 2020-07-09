@@ -64,7 +64,7 @@ const Dubaimainland = () => {
   return (
     <div style={{textAlign:"justify"}}>
       <div css={main}>
-        <h1>Company Spaces from Sharjah Main Land</h1>
+        <h1>Company Spaces from Ras Al Khaimah Main Land</h1>
       </div>
       <br />
       <span>
@@ -113,14 +113,19 @@ const main = css`
   text-align: center;
   min-height: 301px;
   color: white;
-  background: url("https://www.shuraa.com/wp-content/uploads/2020/04/Company-formation-in-Sharjah-Mainland.jpg");
+  background: url("https://blog.raynatours.com/wp-content/uploads/2019/05/ras-al-khaimah-banner.jpg");
   h1 {
     font-size: 30px;
     padding-top: 12%;
   }
 `
 
-
+const sty = css`
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-gap: 30px;
+  text-align: justify;
+`
 const card = css`
   border-radius: 2px;
   h1 {

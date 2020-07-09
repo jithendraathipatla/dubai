@@ -1,5 +1,5 @@
 import React from "react"
-import TitleComponent from "../title"
+import {FaDotCircle} from 'react-icons/fa'
 import { css } from "@emotion/core"
 
 const Dubaimainland = () => {
@@ -62,7 +62,7 @@ const Dubaimainland = () => {
     })
   }
   return (
-    <div>
+    <div style={{textAlign:"justify"}}>
       <div css={main}>
         <h1>Company Spaces from Ajman Main Land</h1>
       </div>
@@ -90,17 +90,24 @@ const Dubaimainland = () => {
       <br />
     <h1>Advantages:</h1>
     <br/>
-      <ul>
-       <li>It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>
-       <li>Sharjah trade license cost is affordable.</li>
-       <li>Company registration in Sharjah is quick and has limited restrictions.</li>
-       <li>he economy greatly supports SMEs and there are over 54,000 SMEs recorded in Sharjah</li>
+      <ul css={list}>
+       <li><FaDotCircle/> It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>
+       <li><FaDotCircle/> Sharjah trade license cost is affordable.</li>
+       <li><FaDotCircle/> Company registration in Sharjah is quick and has limited restrictions.</li>
+       <li><FaDotCircle/> Economy greatly supports SMEs and there are over 54,000 SMEs recorded in Sharjah</li>
       </ul>
     </div>
   )
 }
 
 export default Dubaimainland
+
+const list = css`
+  svg{
+    font-size:6px;
+    padding-top:-5px;
+  }
+`
 
 const main = css`
   text-align: center;

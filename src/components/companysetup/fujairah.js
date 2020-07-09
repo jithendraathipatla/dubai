@@ -64,7 +64,7 @@ const Dubaimainland = () => {
   return (
     <div style={{textAlign:"justify"}}>
       <div css={main}>
-        <h1>Company Spaces from Sharjah Main Land</h1>
+        <h1>Company Spaces from Fujairah Main Land</h1>
       </div>
       <br />
       <span>
@@ -90,7 +90,7 @@ const Dubaimainland = () => {
       <br />
     <h1>Advantages:</h1>
     <br/>
-      <ul css={list}>
+      <ul  css={list}>
        <li><FaDotCircle/> It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>
        <li><FaDotCircle/> Sharjah trade license cost is affordable.</li>
        <li><FaDotCircle/> Company registration in Sharjah is quick and has limited restrictions.</li>
@@ -113,14 +113,19 @@ const main = css`
   text-align: center;
   min-height: 301px;
   color: white;
-  background: url("https://www.shuraa.com/wp-content/uploads/2020/04/Company-formation-in-Sharjah-Mainland.jpg");
+  background: url("https://d2g4iwshf24scx.cloudfront.net/Images/LandingPageImages/Fujairah-Travel-Guide-Banner.jpg");
   h1 {
     font-size: 30px;
     padding-top: 12%;
   }
 `
 
-
+const sty = css`
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-gap: 30px;
+  text-align: justify;
+`
 const card = css`
   border-radius: 2px;
   h1 {

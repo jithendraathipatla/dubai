@@ -44,6 +44,9 @@ const main = css`
 const second = css`
   margin: 10px 10%;
   text-align: justify;
+  svg{
+    padding-top: 6px;
+  }
   h4 {
     color: black;
     font-size: 18px;
