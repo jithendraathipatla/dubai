@@ -80,7 +80,7 @@ const container = css`
 
 const message = css`
 padding: 21px 6%;
-background: #6d549d38;
+background: #6533c4cc;
 text-align: justify;
 border-radius: 13px;
   h1 {
@@ -88,11 +88,13 @@ border-radius: 13px;
     margin-top: 30px;
     margin-bottom: 15px;
     font-size: 18px;
+    color:#fff;
   }
   span {
     letter-spacing: 0.5px;
     text-align: justify;
     font-size: 17px;
     line-height: 30px;
+    color:#fff;
   }
 `
