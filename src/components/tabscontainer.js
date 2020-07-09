@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
-    letterSpacing: "0.5px",
+    letterSpacing: "0.9px",
   },
 }));
 
