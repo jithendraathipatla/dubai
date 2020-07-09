@@ -1,6 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
-import {FaDotCircle} from 'react-icons/fa'
+import { FaDotCircle } from "react-icons/fa"
 
 const Dubaimainland = () => {
   const data = [
@@ -62,39 +62,88 @@ const Dubaimainland = () => {
     })
   }
   return (
-    <div style={{textAlign:"justify"}}>
+    <div style={{ textAlign: "justify" }}>
       <div css={main}>
-        <h1>Company Spaces from Abhu Dha bi Main Land</h1>
+        <h1>BUSINESS SETUP IN ABU DHABI</h1>
       </div>
       <br />
       <span>
-        Sharjah, a booming emirate in the United Arab Emirates, offers new
-        avenues of progress implemented regularly by its government. Business
-        setup in Sharjah mainland is ideal for service-oriented sectors as well
-        as industrial sectors. Sharjah is valued as a strategic location that
-        connects major trading zones and is a cost-effective way to
-        commercialise your business activity. The location stimulates the marine
-        and shipping sector of the country. Hence, company formation in Sharjah
-        is a good option. Company formation in Sharjah mainland with Sevago
-        Business Setup is economical and has the least administrative
-        procedures. Our business setup consultants in Sharjah sort everything
-        out for you, which makes starting a business in Sharjah extremely simple
-        and convenient. At Sevago, we assist multinational companies as well as
-        small and medium enterprises (SME) with getting their business licenses
-        in Sharjah. We offer excellent startup deals on setting up a company in
-        Sharjah mainland. This makes opening a company in Sharjah, with Sevago,
-        even more attractive, as foreign investors can explore and participate
-        in different sectors.
+        <h1 style={{ fontSize: "22px", color: "black" }}>
+          Hassle-free and affordable business setup solutions for new businesses
+          in Abu Dhabi Mainland
+        </h1>
+        <br />
+        Over the past few years, Abu Dhabi has transformed itself into one of
+        the fastest-growing economies in the world. With strong support from the
+        government, the city’s advancement and growth has made it an ideal
+        location for business. Starting a business in Abu Dhabi can be a great
+        decision for any commercial entity. Regulated by the Abu Dhabi
+        Department of Economic Development (ADDED), business setup in Abu Dhabi
+        offers many benefits
+        <br />
+        <br />
+        Getting a business license in Abu Dhabi with Shuraa not only allows you
+        complete ownership of your business but also offers business setup at an
+        affordable price. Company registration in Abu Dhabi offers two-years’
+        validity on trade licence whereas other UAE trade licenses are valid
+        only for one year. This means you save on time and money. Moreover, with
+        Shuraa Business Setup’s exclusive business setup services in Abu Dhabi,
+        the cost of setting up a Limited Liability Company (LLC) in Abu Dhabi is
+        only AED 23,500* for 2 years! At Shuraa, our business setup consultants
+        in Abu Dhabi can offer you expert guidance and the best assistance
+        throughout the entire process of company incorporation in Abu Dhabi
+        <br />
+        <br />
+        <h1 style={{ fontSize: "22px", color: "black" }}>
+          HOW TO SETUP A BUSINESS IN ABU DHABI?
+        </h1>
+        <br />
+        Initially, you need to decide the jurisdiction and the business
+        activity, along with the number of shareholders in the company.
+        Depending on the structure of the company, the procedures will differ.
+        For example, the procedure for an LLC formation in Abu Dhabi will be
+        different from that of a service-oriented small business setup in Abu
+        Dhabi.
+        <br />
+        <br />
+        Do you want to start a new business in Abu Dhabi but are wondering how
+        to go about it? Do you want to know how to start a restaurant or a
+        trading business in Abu Dhabi? Shuraa can help you out. To get detailed
+        information about these and any other business-related queries about Abu
+        Dhabi company formation, speak to our Abu Dhabi company formation
+        experts to get all your questions answered
       </span>
       <br />
       <br />
-    <h1>Advantages:</h1>
-    <br/>
+      <h1 style={{ fontSize: "22px", color: "black" }}>Advantages:</h1>
+      <br />
+      <span>
+        Here are some advantages of business setup in Abu Dhabi compared to
+        other emirates:
+      </span>
+      <br />
+      <br />
       <ul css={list}>
-       <li><FaDotCircle/> It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>
-       <li><FaDotCircle/> Sharjah trade license cost is affordable.</li>
-       <li><FaDotCircle/> Company registration in Sharjah is quick and has limited restrictions.</li>
-       <li><FaDotCircle/> he economy greatly supports SMEs and there are over 54,000 SMEs recorded in Sharjah</li>
+        <li>
+          <FaDotCircle /> Abu Dhabi commercial license is valid for 2 years,
+          unlike other emirates
+        </li>
+        <li>
+          <FaDotCircle /> There is less stress on renewals and you can save on
+          annual payments and costs.
+        </li>
+        <li>
+          <FaDotCircle /> Cost of setting up a company in Abu Dhabi is much
+          cheaper than most emirates.
+        </li>
+        <li>
+          <FaDotCircle /> LLC formation in Abu Dhabi has the least taxes levied
+          on businesses.
+        </li>
+        <li>
+          <FaDotCircle /> Company registration in Abu Dhabi is easy, quick, and
+          efficient with Shuraa.
+        </li>
       </ul>
     </div>
   )
@@ -103,9 +152,9 @@ const Dubaimainland = () => {
 export default Dubaimainland
 
 const list = css`
-  svg{
-    font-size:6px;
-    padding-top:-5px;
+  svg {
+    font-size: 6px;
+    padding-top: -5px;
   }
 `
 

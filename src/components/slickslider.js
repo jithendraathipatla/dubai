@@ -18,12 +18,12 @@ const SlickDemo = () => {
     },
     {
       name:
-        "Mohammed Ali, Global Innovation Manager",
+        "Global Innovation Manager",
       message:
         "I just wanted to let you know that SEVAGO team has been doing a tremendous job on our requests. They are turning things around quickly, coming up with approaches and suggestions on their own and are truly partnering with us on different initiatives. We are deeply appreciative of all their effort and engagement.",
     },
     {
-      name: " Manager, Bank in UAE",
+      name: "Manager, Bank in UAE",
       message:
         "I just wanted to let you know what a great job your guy has been doing with the Triggers. We are very excited about the models/segmentation strategy to help us reach our goal of contacting the right the people. This will help us concentrate our efforts and resources and end up incrementally better overall. He has been great at putting everything together, explaining the methodology and continuing to keep up the updated tracking and reporting coming in. Thanks",
     },

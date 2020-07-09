@@ -68,33 +68,75 @@ const Dubaimainland = () => {
       </div>
       <br />
       <span>
-        Sharjah, a booming emirate in the United Arab Emirates, offers new
-        avenues of progress implemented regularly by its government. Business
-        setup in Sharjah mainland is ideal for service-oriented sectors as well
-        as industrial sectors. Sharjah is valued as a strategic location that
-        connects major trading zones and is a cost-effective way to
-        commercialise your business activity. The location stimulates the marine
-        and shipping sector of the country. Hence, company formation in Sharjah
-        is a good option. Company formation in Sharjah mainland with Sevago
-        Business Setup is economical and has the least administrative
-        procedures. Our business setup consultants in Sharjah sort everything
-        out for you, which makes starting a business in Sharjah extremely simple
-        and convenient. At Sevago, we assist multinational companies as well as
-        small and medium enterprises (SME) with getting their business licenses
-        in Sharjah. We offer excellent startup deals on setting up a company in
-        Sharjah mainland. This makes opening a company in Sharjah, with Sevago,
-        even more attractive, as foreign investors can explore and participate
-        in different sectors.
+      <h1 style={{ fontSize: "22px", color: "black" }}>Company Spaces from Umm Al Qwain Main Land</h1>
+        <br />
+        Hassle-free and affordable business setup solutions for new businesses
+        in Umm Al Qwain Mainland
+        <br />
+        <br />
+        As a growing economy, Umm Al Qwain’s large-scale development is drawing a lot
+        of interest from local and overseas entrepreneurs. The emirate is
+        creating exciting business opportunities, especially for startups, small
+        and medium enterprises, and businesses with small budgets.
+        <br />
+        <br />
+        Business setup in Umm Al Qwain mainland is easy and economical. It offers
+        businesses opportunities for growth and global exposure. Another reason
+        for its growing popularity is the affordable cost of an Umm Al Qwain mainland
+        business license.
+        <br />
+        <br />
+        <h1 style={{ fontSize: "22px", color: "black" }}>HOW TO START A BUSINESS IN UMM AL QWAIN</h1>
+        <br />
+       
+        The general process of setting up a business in Umm Al Qwain mainland is to
+        reserve a trade name and present the required documents as per your
+        business activity. You must then get the preliminary approval by
+        ensuring that you have met the requirements of inspection. Follow-up
+        with the economic department and provide the external approvals, if any,
+        specific to your business activity. Next, draft the company’s Memorandum
+        of Association, pay the fees, and receive the license to start your
+        business in Umm Al Qwain mainland.
+        <br />
+        <br />
+        At Shuraa Business Setup, we ensure quick and efficient processing of
+        your business license and can offer expert guidance on your business
+        setup in Umm Al Qwain, UAE. Company registration in Umm Al Qwain offers several
+        opportunities. However, it is important to understand which options are
+        best suited for your particular business. At Shuraa, we offer exclusive
+        business setup packages for Umm Al Qwain mainland that cover a range of
+        services at affordable prices, starting from AED 14,000*.
       </span>
       <br />
       <br />
-    <h1>Advantages:</h1>
-    <br/>
+      <h1 style={{ fontSize: "22px", color: "black" }}>Advantages:</h1>
+      <br />
+      
+      There are several advantages of business setup in Umm Al Qwain, some of which are
+      the following:
+      <br />
+      <br />
       <ul css={list}>
-       <li><FaDotCircle/> It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>
-       <li><FaDotCircle/> Sharjah trade license cost is affordable.</li>
-       <li><FaDotCircle/> Company registration in Sharjah is quick and has limited restrictions.</li>
-       <li><FaDotCircle/> he economy greatly supports SMEs and there are over 54,000 SMEs recorded in Sharjah</li>
+        <li>
+          <FaDotCircle /> Company registration in Umm Al Qwain offers low-cost rented
+          commercial spaces and offices
+        </li>
+        <li>
+          <FaDotCircle /> LLC license cost in Umm Al Qwain is comparatively more
+          reasonable than most other emirates
+        </li>
+        <li>
+          <FaDotCircle /> Manufacturing units prefer business set-up in Umm Al Qwain
+          due to easy lease options
+        </li>
+        <li>
+          <FaDotCircle /> Umm Al Qwain provides easy access to two international
+          airports and four ports
+        </li>
+        <li>
+          <FaDotCircle /> Company formation in Umm Al Qwain is ideal for industries as
+          raw materials are easily available
+        </li>
       </ul>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from "react"
-import {FaDotCircle} from 'react-icons/fa'
+import { FaDotCircle } from "react-icons/fa"
 import { css } from "@emotion/core"
 
 const Dubaimainland = () => {
@@ -62,39 +62,82 @@ const Dubaimainland = () => {
     })
   }
   return (
-    <div style={{textAlign:"justify"}}>
+    <div style={{ textAlign: "justify" }}>
       <div css={main}>
         <h1>Company Spaces from Ajman Main Land</h1>
       </div>
       <br />
       <span>
-        Sharjah, a booming emirate in the United Arab Emirates, offers new
-        avenues of progress implemented regularly by its government. Business
-        setup in Sharjah mainland is ideal for service-oriented sectors as well
-        as industrial sectors. Sharjah is valued as a strategic location that
-        connects major trading zones and is a cost-effective way to
-        commercialise your business activity. The location stimulates the marine
-        and shipping sector of the country. Hence, company formation in Sharjah
-        is a good option. Company formation in Sharjah mainland with Sevago
-        Business Setup is economical and has the least administrative
-        procedures. Our business setup consultants in Sharjah sort everything
-        out for you, which makes starting a business in Sharjah extremely simple
-        and convenient. At Sevago, we assist multinational companies as well as
-        small and medium enterprises (SME) with getting their business licenses
-        in Sharjah. We offer excellent startup deals on setting up a company in
-        Sharjah mainland. This makes opening a company in Sharjah, with Sevago,
-        even more attractive, as foreign investors can explore and participate
-        in different sectors.
+        <h1 style={{ fontSize: "22px", color: "black" }}>Company Spaces from Ajman Main Land</h1>
+        <br />
+       
+        Hassle-free and affordable business setup solutions for new businesses
+        in Ajman Mainland
+        <br />
+        <br />
+        As a growing economy, Ajman’s large-scale development is drawing a lot
+        of interest from local and overseas entrepreneurs. The emirate is
+        creating exciting business opportunities, especially for startups, small
+        and medium enterprises, and businesses with small budgets.
+        <br />
+        <br />
+        Business setup in Ajman mainland is easy and economical. It offers
+        businesses opportunities for growth and global exposure. Another reason
+        for its growing popularity is the affordable cost of an Ajman mainland
+        business license.
+        <br />
+        <br />
+        <h1 style={{ fontSize: "22px", color: "black" }}>HOW TO START A BUSINESS IN AJMAN</h1>
+        <br />
+        
+        The general process of setting up a business in Ajman mainland is to
+        reserve a trade name and present the required documents as per your
+        business activity. You must then get the preliminary approval by
+        ensuring that you have met the requirements of inspection. Follow-up
+        with the economic department and provide the external approvals, if any,
+        specific to your business activity. Next, draft the company’s Memorandum
+        of Association, pay the fees, and receive the license to start your
+        business in Ajman mainland.
+        <br />
+        <br />
+        At Shuraa Business Setup, we ensure quick and efficient processing of
+        your business license and can offer expert guidance on your business
+        setup in Ajman, UAE. Company registration in Ajman offers several
+        opportunities. However, it is important to understand which options are
+        best suited for your particular business. At Shuraa, we offer exclusive
+        business setup packages for Ajman mainland that cover a range of
+        services at affordable prices, starting from AED 14,000*.
       </span>
       <br />
       <br />
-    <h1>Advantages:</h1>
-    <br/>
+      <h1 style={{ fontSize: "22px", color: "black" }}>Advantages:</h1>
+      <br />
+      
+      There are several advantages of business setup in Ajman, some of which are
+      the following:
+      <br />
+      <br />
       <ul css={list}>
-       <li><FaDotCircle/> It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>
-       <li><FaDotCircle/> Sharjah trade license cost is affordable.</li>
-       <li><FaDotCircle/> Company registration in Sharjah is quick and has limited restrictions.</li>
-       <li><FaDotCircle/> Economy greatly supports SMEs and there are over 54,000 SMEs recorded in Sharjah</li>
+        <li>
+          <FaDotCircle /> Company registration in Ajman offers low-cost rented
+          commercial spaces and offices
+        </li>
+        <li>
+          <FaDotCircle /> LLC license cost in Ajman is comparatively more
+          reasonable than most other emirates
+        </li>
+        <li>
+          <FaDotCircle /> Manufacturing units prefer business set-up in Ajman
+          due to easy lease options
+        </li>
+        <li>
+          <FaDotCircle /> Ajman provides easy access to two international
+          airports and four ports
+        </li>
+        <li>
+          <FaDotCircle /> Company formation in Ajman is ideal for industries as
+          raw materials are easily available
+        </li>
       </ul>
     </div>
   )
@@ -103,9 +146,9 @@ const Dubaimainland = () => {
 export default Dubaimainland
 
 const list = css`
-  svg{
-    font-size:6px;
-    padding-top:-5px;
+  svg {
+    font-size: 6px;
+    padding-top: -5px;
   }
 `
 

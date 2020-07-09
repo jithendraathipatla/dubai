@@ -68,6 +68,10 @@ const Dubaimainland = () => {
       </div>
       <br />
       <span>
+         <br/>
+         <h1 style={{ fontSize: "22px", color: "black" }}>Company Spaces from Sharjah Main Land</h1>
+         <br/>
+        
         Sharjah, a booming emirate in the United Arab Emirates, offers new
         avenues of progress implemented regularly by its government. Business
         setup in Sharjah mainland is ideal for service-oriented sectors as well
@@ -88,7 +92,7 @@ const Dubaimainland = () => {
       </span>
       <br />
       <br />
-    <h1>Advantages:</h1>
+    <h1 style={{ fontSize: "22px", color: "black" }}>Advantages:</h1>
     <br/>
       <ul css={list}>
        <li><FaDotCircle/> It is a hub for manufacturing industries, service-oriented companies, and cultural and educational entities.</li>

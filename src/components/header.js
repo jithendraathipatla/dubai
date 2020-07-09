@@ -62,11 +62,20 @@ const Header = () => {
                   <Link to="/sharja-packages" activeClassName="active">
                     Sharjah
                   </Link>
+                  <Link to="/sharja-packages" activeClassName="active">
+                    Fujairah
+                  </Link>
+                  <Link to="/sharja-packages" activeClassName="active">
+                    Ras Al Khaimah
+                  </Link>
+                  <Link to="/sharja-packages" activeClassName="active">
+                    Umm Al Qwain
+                  </Link>
                 </div>
               </div>
 
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">Property Services</a>
+                <a className="navbar-link is-arrowless">Services</a>
 
                 <div className="navbar-dropdown" css={final}>
                   <Link to="/business-licenses" activeClassName="active">
@@ -86,6 +95,9 @@ const Header = () => {
                   </Link>
                   <Link to="/bank-assistance" activeClassName="active">
                     Bank Assistance
+                  </Link>
+                  <Link to="/bank-assistance" activeClassName="active">
+                    Property Services
                   </Link>
                 </div>
               </div>
