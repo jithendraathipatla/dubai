@@ -1,10 +1,10 @@
 import React from "react"
-import Layoutcomponent from "../components/layout"
-import BusinessSetupHOC from "../components/HOC/business-setup-free-zone"
+
+import BusinessSetupHOC from "../HOC/business-setup-offshore";
 
 const BusinessSetupInDiera = () => {
   return (
-    <Layoutcomponent>
+    <>
       <BusinessSetupHOC
         main="BUSINESS SETUP IN DUBAI INTERNATIONAL FINANCIAL CENTRE FREE ZONE"
         submain="The global financial center of the middle-east, DIFC is the middle eastern hub for financial institutes"
@@ -61,7 +61,7 @@ const BusinessSetupInDiera = () => {
           <br />
         </div>
       </BusinessSetupHOC>
-    </Layoutcomponent>
+    </>
   )
 }
 

@@ -46,6 +46,8 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
     letterSpacing: "0.9px",
+    color:"back",
+    fontFamily: "cursive",
   },
 }));
 

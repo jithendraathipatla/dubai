@@ -7,55 +7,58 @@ const BusinessSetupInDiera = () => {
     <Layoutcomponent>
       <BusinessSetupHOC
         main="COMPANY FORMATION IN SILICON OASIS, DUBAI"
-        submain="Conveniently located near the world’s 7th largest container port"
-        hetchfour="BUSINESS SETUP IN JEBEL ALI FREE ZONE DUBAI"
+        submain="The DSO free zone was established with the objective to encourage businesses based on modern technology"
+        hetchfour="BUSINESS SETUP IN DUBAI SILICON OASIS FREE ZONE"
       >
         <div>
           <br />
           <span>
             <h1 style={{ fontSize: "22px", color: "black" }}>
-              The free zone is conveniently located near the world’s 7th largest
-              container port, the Jebel Ali Port
+              The DSO free zone was established with the objective to encourage
+              businesses based on modern technology
             </h1>
             <br />
-            The Jebel Ali Free Zone also widely known as JAFZA Freezone, is
-            among the oldest protrusive location for business setup in Dubai as
-            well as other regions in the UAE. Located near the world’s 7th
-            largest container port named the Jebel Ali Port and adjacent to the
-            prime cargo airports, Jebel Ali Free Zone is a projecting site for
-            shipping companies and trading sector including export and import
-            ventures. Built in the 1985, by the Dubai Government under the
-            guidance of Dubai Ruler Sheikh Rashid Bin Saeed Al Maktoum, Jebel
-            Ali Free Zone created a benchmark towards the economy of Dubai.
-            Business setup in Jebel Ali Free Zone, soon gathered demand and
-            popularity due to its unique positioning and progressive work
-            procedures, the jurisdiction further gained the ISO certification
-            and offered a mix-developmental business module.
+            The Dubai Silicon Oasis (DSO) is a complete government-owned
+            freezone jurisdiction under the Dubai Silicon Oasis Authority
+            (DSOA). The freezone is located on the conjoining road from Dubai to
+            Al Ain, that comprises of residential, commercial and industrial
+            space. With the objective to emphasize the modern technology based
+            industries and to expand the horizons for business expansion in such
+            sectors, the DSO Free zone was established. Company formation in
+            Dubai Silicon Oasis Freezone provides a mix concept, that mainly
+            focuses on engaging in business activities related to technology,
+            electronics and engineering sectors. The Government of Dubai aims at
+            promoting innovation-led economy, thus facilitates modern technology
+            based industries supporting the region’s demand for business
+            expansion. This initiative has encouraged the foundation of Dubai
+            Silicon Oasis, that caters to firms providing internet related
+            business, software technologies, mobile services etc. ABEX
+            Telecommunications, ACCTON Technology Corporation Pte. Ltd, ANG
+            Automation Solutions, Axiom Telecom, Beta Information Technology,
+            Business Integrated Operating Systems, Emitac Mobile Solutions are
+            some of the leading companies located in the jurisdiction <br />
             <br />
-            <br />
-            The region that started with only 19 companies within few decades’
-            developed, and currently houses 7000 companies. The major advantage
-            of company formation in Jebel Ali Freezone, apart from the location,
-            pre-built factories and storage units and modern Business centers
-            are the governmental and jurisdictional benefits that the region
-            offers. Freezone business setup Dubai aids with various perks, that
-            involves 100% ownership, no tax, no customs, no duties and more.
-            Particularly, Jebel Ali Free Zone provides easy procedures on free
-            zone company registration in Dubai. Freezone company setup, can be
-            done under three types in Jebel Ali Free Zone – 1) Free Zone
-            Establishment (FZE), 2) Free Zone Company (FZC) and 3) A Branch
-            Office. The variance between Free Zone Establishment and a Free Zone
-            Company, is that it differentiates between partnership structure
-            (Free Zone Establishment-FZE is a single shareholder limited
-            liability company incorporated in any UAE Free Zone. While, Free
-            Zone Company -FZC will be a similar incorporation with multiple
-            shareholding), a branch office is a company which is regulated by
-            the foreign parent company or the parent company under mainland
-            business setup. To find out more about various company formation
-            options in Jebel Ali Free Zone contact, Shuraa – a business setup
-            company in Dubai. Shuraa helps you deal with various business
-            related hindrances and provides you resolutions with regards company
-            formation in UAE.
+            Further, Dubai Silicon Oasis Authority envision serves as a
+            technological park that provides an integrated community with a
+            blend of residential and commercial platforms – with the benefits of
+            freezone adding to the enhancement of the region. Business setup in
+            Dubai Silicon Oasis Free Zone offers a highly-planned community
+            spread across 7.2 million square meters and segregated on the basis
+            of industries, commercialized space, educational institutes,
+            residential and public facilities. The technology park has
+            world-class infrastructure featuring advanced communications,
+            connectivity, electricity, and networks. Dubai Silicon Oasis is
+            designed as a hi-tech ecosystem technological park offering the best
+            of Dubai free zone company registration, with a plethora of
+            advantages. The regulatory body Dubai Silicon Oasis Authority
+            (DSOA), facilitates with state-of-the-art and technologically
+            progressive infrastructure, support with business investments,
+            funding and capital, entrepreneurial support as well as access to
+            expert monitoring and more. To engage in a business activity at
+            Dubai Silicon Oasis or to understand more about the Dubai Silicon
+            Oasis Authority talk to Shuraa Business Setup service providers, one
+            of the singnificant business setup consulting firms in Dubai,
+            offering company formation services across UAE.
           </span>
           <br />
           <br />

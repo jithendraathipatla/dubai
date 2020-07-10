@@ -12,16 +12,12 @@ const BusinessSetup = props => {
         <h1>{props.main}</h1>
         <p>{props.submain}</p>
       </div>
-
+       <br/>
       <div css={second}>
-        <div style={{ textAlign: "right" }}>Mai
-          <Link to="/uae-free-zones"><FaBackward/> To UAE Free zone</Link>
-        </div>
         <h4>{props.hetchfour}</h4>
 
         {props.children}
       </div>
-      <LocationComponent />
     </div>
   )
 }
@@ -29,7 +25,7 @@ const BusinessSetup = props => {
 export default BusinessSetup
 
 const main = css`
-  background: url("https://www.shuraa.com/wp-content/uploads/2020/04/Company-Formation-in-Abu-Dhabi-Free-zone-01-1.jpg");
+  background: url("https://www.shuraa.com/wp-content/uploads/2020/04/Offshore-Company-Formation-in-Dubai.jpg");
   height: 300px;
   width: 100%;
   padding-top: 10%;
@@ -42,7 +38,7 @@ const main = css`
 `
 
 const second = css`
-  margin: 10px 10%;
+  margin: 10px 0px;
   text-align: justify;
   svg{
     padding-top: 6px;
