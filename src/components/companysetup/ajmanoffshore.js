@@ -8,49 +8,26 @@ const BusinessSetupInDiera = () => {
     <>
       <BusinessSetupHOC
         main="OFFSHORE COMPANY FORMATION IN AJMAN"
-        submain="OFFSHORE COMPANY FORMATION IN AJMAN"
+        submain="Hassle-free, tax-free, and secure offshore company formation in Ajman
+        Home "
         hetchfour="OFFSHORE COMPANY FORMATION IN AJMAN"
       >
         <div>
           <br />
           <span>
             <h1 style={{ fontSize: "22px", color: "black" }}>
-              Hassle-free, tax-free, and secure offshore company formation in
-              Dubai
+            Hassle-free, tax-free, and secure offshore company formation in Ajman
             </h1>
             <br />
-            A tax haven like no other is what UAE offshore businesses enjoy. A
-            lot of countries provide tax benefits and are known to protect the
-            assets and financial information of high net-worth individuals.
-            However, Dubai offshore has emerged as the best and most secure tax
-            haven for company incorporation.
+            Offshore company formation in Ajman was allowed only as late as 2014. The Ajman Free Zone Authority offers benefits such as zero taxation, complete privacy and 100% repatriation on profit to offshore companies in Ajman Free Zone. The cost to set up an offshore company in Ajman is the cheapest in UAE and the time taken to establish it is the least. Ajman offshore companies are non-resident companies and are not issued operating licenses. Here, these companies will only get a company incorporation certificate. No Ajman offshore company can conduct business within United Arab Emirates. These shareholders are, however, allowed to invest in UAE companies. However, for Ajman offshore company registration, a director of shareholder needs to be physically present in Ajman Free Zone office, along with a registered agent, and personally sign the documents.
             <br />
             <br />
-            Dubai offshores are one of the few tax havens that has not signed
-            any treaties to disclose financial information of offshore clients
-            to home countries of these individuals. Dubai offshore regulator
-            does not keep a public register of shareholders and directors and
-            can never be forced to reveal your company information to other
-            countries or tax authorities. When you register an offshore company
-            in Dubai, you are a legal bona fide business, which gives you an
-            easy access to conducting business in the Middle East, anywhere
-            outside UAE.
+            Unlike other Emirates, minimum two directors are needed for Ajman offshore company registration. To setup offshore companies in this region it is required to perform annual audits and physically hold meetings in the presence of an auditor. It is mandatory to have a registered agent for any interaction with Ajman Authority in relation to Ajman offshore company formation . That’s where Shuraa Business Setup comes to your rescue, we help you with every criterion involved during an offshore company formation at Ajman. We save you time, money and effort by handling all the paperwork and getting required approvals from Ajman freezone authorities. Shuraa Business Setup has 15 years of experience in company formation in UAE. Thanks to the expertise of our consultants, you can set up an offshore company in Ajman within two days. With Shuraa business Setup, your Ajman offshore company formation cost will be the least.
             <br />
             <br />
-            Sevago Business Setup helps you with offshore company registration
-            in Dubai. We get you the incorporation certificates and other
-            government approvals, so you can set up an offshore company in Dubai
-            in the safest and quickest way. Our Dubai offshore company formation
-            packages are the most hassle-free and competitively priced ones.
-            Sevago Business Setup’s offshore business setup Dubai packages offer
-            quick, safe and hassle-free solutions. We help you register your
-            company, get company incorporation certificate, offshore bank
-            accounts and everything else that you would require to setup your
-            offshore company.
-            <br />
-            <br />
+           
             <h1 style={{ fontSize: "22px", color: "black" }}>
-              START A DUBAI OFFSHORE COMPANY WITH SEVAGO BUSINESS SETUP AND GET
+            WHAT ARE THE BENEFITS OF STARTING AN AJMAN OFFSHORE COMPANY?
             </h1>
             <br />
             <h2 style={{ fontSize: "18px", color: "black" }}>
