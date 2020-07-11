@@ -52,7 +52,7 @@ const footer = () => {
         </div>
       </div>
       <div css={lastl}>
-        Copyright © {new Date().getFullYear()} New Business Mentors. All rights
+        Copyright © {new Date().getFullYear()} Sevago. All rights
         reserved Privacy Policy Terms and Condition.
       </div>
     </div>
@@ -66,6 +66,7 @@ const lastl = css`
   text-align: center;
   background: #131A22;
   padding: 10px;
+  font-size: 12px;
   span {
     display: block;
   }
@@ -76,26 +77,26 @@ const last = css`
   margin-left:40px;
   svg {
     color: white;
-    font-size: 33px;
-    padding-right: 10px;
-    margin-left: 10px;
+    font-size: 28px;
+    padding-right: 9px;
+    margin-left: 13px;
   }
 `
 
 const main = css`
-  display: grid;
-  grid-template-columns: 4fr 3fr 2fr 3fr;
-  background: no-repeat padding-box #232F3E;
-  color: #DDD;
-  grid-gap: 30px;
-  padding: 10px 50px;
-  
+display: grid;
+grid-template-columns: 5fr 4fr 2fr 3fr;
+background: no-repeat padding-box #232F3E;
+color: #DDD;
+grid-gap: 104px;
+padding: 10px 50px;
   div{
     margin-left:10px;
     ul{
       margin-left:10px;
       li{
         line-height:26px;
+        font-size: 14px;
       }
     }
   }

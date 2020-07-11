@@ -14,7 +14,7 @@ const BusinessSetup = props => {
       </div>
 
       <div css={second}>
-        <div style={{ textAlign: "right" }}>Mai
+        <div style={{ textAlign: "right" }}>
           <Link to="/uae-free-zones"><FaBackward/> To UAE Free zone</Link>
         </div>
         <h4>{props.hetchfour}</h4>

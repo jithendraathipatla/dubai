@@ -47,7 +47,6 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     letterSpacing: "0.9px",
     color:"back",
-    fontFamily: "cursive",
   },
 }));
 
@@ -66,7 +65,7 @@ export default function ScrollableTabsButtonAuto(props) {
           value={value}
           onChange={handleChange}
           indicatorColor="primary"
-          textColor="primary"
+          textColor="black"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
