@@ -29,7 +29,7 @@ const Header = () => {
                 </Link>
               
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">Company Setup</a>
+                <a className="navbar-link is-arrowless">UAE Company Setup</a>
 
                 <div className="navbar-dropdown" css={final}>
                   <Link to="/uaemainland" activeClassName="active">
@@ -47,7 +47,7 @@ const Header = () => {
               </div>
 
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">Packages</a>
+                <a className="navbar-link is-arrowless">UAE Packages</a>
 
                 <div className="navbar-dropdown" css={final}>
                   <Link to="/view-all-packages" activeClassName="active">
@@ -75,7 +75,7 @@ const Header = () => {
               </div>
 
               <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">Services</a>
+                <a className="navbar-link is-arrowless">UAE Services</a>
 
                 <div className="navbar-dropdown" css={final}>
                   <Link to="/business-licenses" activeClassName="active">
@@ -105,7 +105,105 @@ const Header = () => {
               
 
               <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link is-arrowless">Properties</a>
+              <a className="navbar-link is-arrowless">UAE Properties</a>
+
+              <div className="navbar-dropdown" css={final}>
+                <Link to="/business-centers" activeClassName="active">
+                  Properties for Sale
+                </Link>
+                <Link to="/offices-for-rent" activeClassName="active">
+                  Properties for Rent
+                </Link>
+                <Link to="/smart-desks" activeClassName="active">
+                Property Leasing
+                </Link>
+                <Link to="/business-centers" activeClassName="active">
+                 Business Centers
+                </Link>
+                <Link to="/smart-desks" activeClassName="active">
+                 Smart Desks
+                </Link>
+              </div>
+            </div>
+
+            <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">UK Company Setup</a>
+
+                <div className="navbar-dropdown" css={final}>
+                  <Link to="/uaemainland" activeClassName="active">
+                   UK Main Land
+                  </Link>
+
+                  <Link to="/uae-free-zones" activeClassName="active">
+                   UK Free zones
+                  </Link>
+
+                  <Link to="/uae-off-shores" activeClassName="active">
+                   UK Off Shores
+                  </Link>
+                </div>
+              </div>
+
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">UK Packages</a>
+
+                <div className="navbar-dropdown" css={final}>
+                  <Link to="/view-all-packages" activeClassName="active">
+                    View All Packages
+                  </Link>
+                  <Link to="/dubai-packages" activeClassName="active">
+                    Dubai
+                  </Link>
+                  <Link to="/abu-dha-bi-packages" activeClassName="active">
+                    Abu Dhabi
+                  </Link>
+                  <Link to="/sharja-packages" activeClassName="active">
+                    Sharjah
+                  </Link>
+                  <Link to="/sharja-packages" activeClassName="active">
+                    Fujairah
+                  </Link>
+                  <Link to="/sharja-packages" activeClassName="active">
+                    Ras Al Khaimah
+                  </Link>
+                  <Link to="/sharja-packages" activeClassName="active">
+                    Umm Al Qwain
+                  </Link>
+                </div>
+              </div>
+
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link is-arrowless">UK Services</a>
+
+                <div className="navbar-dropdown" css={final}>
+                  <Link to="/business-licenses" activeClassName="active">
+                    Business Licences
+                  </Link>
+                  <Link
+                    to="/business-sponsor-services"
+                    activeClassName="active"
+                  >
+                    Business Sponser Servies
+                  </Link>
+                  <Link to="/pro-services" activeClassName="active">
+                    Pro Services
+                  </Link>
+                  <Link to="/business-activities" activeClassName="active">
+                    Business Activities
+                  </Link>
+                  <Link to="/bank-assistance" activeClassName="active">
+                    Bank Assistance
+                  </Link>
+                  <Link to="/bank-assistance" activeClassName="active">
+                    Property Services
+                  </Link>
+                </div>
+              </div>
+
+              
+
+              <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link is-arrowless">UK Properties</a>
 
               <div className="navbar-dropdown" css={final}>
                 <Link to="/business-centers" activeClassName="active">
@@ -127,41 +225,8 @@ const Header = () => {
             </div>
 
 
-              <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">What`s new</a>
 
-                <div className="navbar-dropdown" css={final}>
-                  <Link to="/blog" activeClassName="active">
-                    Blog
-                  </Link>
-                  <Link to="/news-and-events" activeClassName="active">
-                    News and Events
-                  </Link>
-                  <Link to="/press-release" activeClassName="active">
-                    Press Release
-                  </Link>
-                </div>
-              </div>
-
-              <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link is-arrowless">About</a>
-
-                <div className="navbar-dropdown" css={final}>
-                  <Link to="/what-is-sevago" activeClassName="active">
-                    What is Sevago?
-                  </Link>
-                  <Link to="/chairman" activeClassName="active">
-                    Chairman`s Profile
-                  </Link>
-                  <Link to="/why-sevago" activeClassName="active">
-                    Why Sevago?
-                  </Link>
-                  <Link to="/testimonials" activeClassName="active">
-                    Testimonials
-                  </Link>
-                </div>
-              </div>
-            
+           
               <Link to="/contact" activeClassName="active" className="navbar-item" style={{marginRight:"10px"}}>
                 Contact US
               </Link>
@@ -180,8 +245,8 @@ const final = css`
  a{
   display: block;
   margin: 2px 10px;
-  margin-bottom: 9.5px;
-  font-size: 16px;
+    margin-bottom: 9.5px;
+    font-size: 13px;
   color: white;
   letter-spacing: 0.8px;
   width: -webkit-max-content;

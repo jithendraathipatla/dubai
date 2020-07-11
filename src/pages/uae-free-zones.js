@@ -38,7 +38,6 @@ const Contactuspage = () => {
           contentseven={<RasalkaimahfreeZone />}
         />
       </div>
-      <hr />
       <ContactUsComponent />
     </LayoutComponent>
   )
