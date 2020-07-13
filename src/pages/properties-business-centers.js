@@ -1,5 +1,4 @@
 import React from "react"
-import TabsContainerComponent from "../components/tabscontainer"
 import LayoutComponent from "../components/layout"
 import TitleComponent from "../components/title"
 import { css } from "@emotion/core"
@@ -9,297 +8,37 @@ import HigherOrderPropertyComponent from "../components/HOC/properties-setup"
 const PropertiesForRent = () => {
   return (
     <LayoutComponent>
-      <div style={{ marginTop: "6%" }}></div>
-      <div style={{ textAlign: "center" }}>
-        <TitleComponent title="Business Center in UAE" />
-      </div>
+      <div style={{ marginTop: "2%" }}></div>
       <br />
-      <div css={main}>
-        <TabsContainerComponent
-          labelone="Business Center One"
-          contentone={
-            <HigherOrderPropertyComponent hetchfour="Business Center One">
-              <div>
-                <span>
-                  This is definitely one of the best location for investment
-                  purpose in Dubai.Bahia Residence is the latest release in the
-                  larger Acacia Avenues development located between Sheikh Zayed
-                  Road and Beach Road just east of Media and Internet cities.
-                  The larger development is truly an outstanding investment
-                  opportunity as it is the only large scale development of its
-                  kind on Jumeirah land. With exceptionally limited supply and a
-                  massive demand for units in the area, this surely is an
-                  investor's choice. Minimalistic yet feature-filled, the villas
-                  and apartments of Acacia Avenues herald the arrival of
-                  contemporary urban living in Dubai. Inspired by chic,
-                  landscaped urban spaces, the architecture combines
-                  contemporary modes with regional cues to create a definitive
-                  living environment.
-                  <br />
-                  <br />
-                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
-                  <br />
-                  <ul>
-                    <li>Vast Open Spaces</li>
-                    <li>Ready to MoveIn Properties</li>
-                    <li>Easy Commute</li>
-                  </ul>
-                  <br />
-                  <br />
-                  Claren Towers are incredibly popular for many reasons,
-                  including their stylish modern finish throughout, that sets
-                  them apart from the usual Emaar styles in Downtown. As well as
-                  this, the towers are located in an area that cannot be
-                  compromised by construction in the area, meaning what you see
-                  is what you get. This is a good investment opportunity for
-                  those looking to invest in a unique and special apartment
-                  offering a strong net return on investments.
-                </span>
-              </div>
-            </HigherOrderPropertyComponent>
-          }
-          contenttwo={<HigherOrderPropertyComponent hetchfour="Property For Rent Two">
-          <div>
-            <span>
-              This is definitely one of the best location for investment
-              purpose in Dubai.Bahia Residence is the latest release in the
-              larger Acacia Avenues development located between Sheikh Zayed
-              Road and Beach Road just east of Media and Internet cities.
-              The larger development is truly an outstanding investment
-              opportunity as it is the only large scale development of its
-              kind on Jumeirah land. With exceptionally limited supply and a
-              massive demand for units in the area, this surely is an
-              investor's choice. Minimalistic yet feature-filled, the villas
-              and apartments of Acacia Avenues herald the arrival of
-              contemporary urban living in Dubai. Inspired by chic,
-              landscaped urban spaces, the architecture combines
-              contemporary modes with regional cues to create a definitive
-              living environment.
-              <br />
-              <br />
-              <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
-              <br />
-              <ul>
-                <li>Vast Open Spaces</li>
-                <li>Ready to MoveIn Properties</li>
-                <li>Easy Commute</li>
-              </ul>
-              <br />
-              <br />
-              Claren Towers are incredibly popular for many reasons,
-              including their stylish modern finish throughout, that sets
-              them apart from the usual Emaar styles in Downtown. As well as
-              this, the towers are located in an area that cannot be
-              compromised by construction in the area, meaning what you see
-              is what you get. This is a good investment opportunity for
-              those looking to invest in a unique and special apartment
-              offering a strong net return on investments.
-            </span>
-          </div>
-        </HigherOrderPropertyComponent> }
-          labeltwo="Business Center Two"
-          labelthree="Business Center Three"
-          contentthree={<HigherOrderPropertyComponent hetchfour="Business Center Three">
-              <div>
-                <span>
-                  This is definitely one of the best location for investment
-                  purpose in Dubai.Bahia Residence is the latest release in the
-                  larger Acacia Avenues development located between Sheikh Zayed
-                  Road and Beach Road just east of Media and Internet cities.
-                  The larger development is truly an outstanding investment
-                  opportunity as it is the only large scale development of its
-                  kind on Jumeirah land. With exceptionally limited supply and a
-                  massive demand for units in the area, this surely is an
-                  investor's choice. Minimalistic yet feature-filled, the villas
-                  and apartments of Acacia Avenues herald the arrival of
-                  contemporary urban living in Dubai. Inspired by chic,
-                  landscaped urban spaces, the architecture combines
-                  contemporary modes with regional cues to create a definitive
-                  living environment.
-                  <br />
-                  <br />
-                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
-                  <br />
-                  <ul>
-                    <li>Vast Open Spaces</li>
-                    <li>Ready to MoveIn Properties</li>
-                    <li>Easy Commute</li>
-                  </ul>
-                  <br />
-                  <br />
-                  Claren Towers are incredibly popular for many reasons,
-                  including their stylish modern finish throughout, that sets
-                  them apart from the usual Emaar styles in Downtown. As well as
-                  this, the towers are located in an area that cannot be
-                  compromised by construction in the area, meaning what you see
-                  is what you get. This is a good investment opportunity for
-                  those looking to invest in a unique and special apartment
-                  offering a strong net return on investments.
-                </span>
-              </div>
-            </HigherOrderPropertyComponent>}
-          labelfour="Business Center Four"
-          contentfour={<HigherOrderPropertyComponent hetchfour="Business Center Four">
-              <div>
-                <span>
-                  This is definitely one of the best location for investment
-                  purpose in Dubai.Bahia Residence is the latest release in the
-                  larger Acacia Avenues development located between Sheikh Zayed
-                  Road and Beach Road just east of Media and Internet cities.
-                  The larger development is truly an outstanding investment
-                  opportunity as it is the only large scale development of its
-                  kind on Jumeirah land. With exceptionally limited supply and a
-                  massive demand for units in the area, this surely is an
-                  investor's choice. Minimalistic yet feature-filled, the villas
-                  and apartments of Acacia Avenues herald the arrival of
-                  contemporary urban living in Dubai. Inspired by chic,
-                  landscaped urban spaces, the architecture combines
-                  contemporary modes with regional cues to create a definitive
-                  living environment.
-                  <br />
-                  <br />
-                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
-                  <br />
-                  <ul>
-                    <li>Vast Open Spaces</li>
-                    <li>Ready to MoveIn Properties</li>
-                    <li>Easy Commute</li>
-                  </ul>
-                  <br />
-                  <br />
-                  Claren Towers are incredibly popular for many reasons,
-                  including their stylish modern finish throughout, that sets
-                  them apart from the usual Emaar styles in Downtown. As well as
-                  this, the towers are located in an area that cannot be
-                  compromised by construction in the area, meaning what you see
-                  is what you get. This is a good investment opportunity for
-                  those looking to invest in a unique and special apartment
-                  offering a strong net return on investments.
-                </span>
-              </div>
-            </HigherOrderPropertyComponent>}
-          labelfive="Business Center Five"
-          contentfive={<HigherOrderPropertyComponent hetchfour="Business Center Five">
-              <div>
-                <span>
-                  This is definitely one of the best location for investment
-                  purpose in Dubai.Bahia Residence is the latest release in the
-                  larger Acacia Avenues development located between Sheikh Zayed
-                  Road and Beach Road just east of Media and Internet cities.
-                  The larger development is truly an outstanding investment
-                  opportunity as it is the only large scale development of its
-                  kind on Jumeirah land. With exceptionally limited supply and a
-                  massive demand for units in the area, this surely is an
-                  investor's choice. Minimalistic yet feature-filled, the villas
-                  and apartments of Acacia Avenues herald the arrival of
-                  contemporary urban living in Dubai. Inspired by chic,
-                  landscaped urban spaces, the architecture combines
-                  contemporary modes with regional cues to create a definitive
-                  living environment.
-                  <br />
-                  <br />
-                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
-                  <br />
-                  <ul>
-                    <li>Vast Open Spaces</li>
-                    <li>Ready to MoveIn Properties</li>
-                    <li>Easy Commute</li>
-                  </ul>
-                  <br />
-                  <br />
-                  Claren Towers are incredibly popular for many reasons,
-                  including their stylish modern finish throughout, that sets
-                  them apart from the usual Emaar styles in Downtown. As well as
-                  this, the towers are located in an area that cannot be
-                  compromised by construction in the area, meaning what you see
-                  is what you get. This is a good investment opportunity for
-                  those looking to invest in a unique and special apartment
-                  offering a strong net return on investments.
-                </span>
-              </div>
-            </HigherOrderPropertyComponent>}
-          labelsix="Business Center Six"
-          contentsix={<HigherOrderPropertyComponent hetchfour="Business Center Six">
-              <div>
-                <span>
-                  This is definitely one of the best location for investment
-                  purpose in Dubai.Bahia Residence is the latest release in the
-                  larger Acacia Avenues development located between Sheikh Zayed
-                  Road and Beach Road just east of Media and Internet cities.
-                  The larger development is truly an outstanding investment
-                  opportunity as it is the only large scale development of its
-                  kind on Jumeirah land. With exceptionally limited supply and a
-                  massive demand for units in the area, this surely is an
-                  investor's choice. Minimalistic yet feature-filled, the villas
-                  and apartments of Acacia Avenues herald the arrival of
-                  contemporary urban living in Dubai. Inspired by chic,
-                  landscaped urban spaces, the architecture combines
-                  contemporary modes with regional cues to create a definitive
-                  living environment.
-                  <br />
-                  <br />
-                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
-                  <br />
-                  <ul>
-                    <li>Vast Open Spaces</li>
-                    <li>Ready to MoveIn Properties</li>
-                    <li>Easy Commute</li>
-                  </ul>
-                  <br />
-                  <br />
-                  Claren Towers are incredibly popular for many reasons,
-                  including their stylish modern finish throughout, that sets
-                  them apart from the usual Emaar styles in Downtown. As well as
-                  this, the towers are located in an area that cannot be
-                  compromised by construction in the area, meaning what you see
-                  is what you get. This is a good investment opportunity for
-                  those looking to invest in a unique and special apartment
-                  offering a strong net return on investments.
-                </span>
-              </div>
-            </HigherOrderPropertyComponent>}
-          labelseven="Business Center Seven"
-          contentseven={<HigherOrderPropertyComponent hetchfour="Business Center Seven">
-              <div>
-                <span>
-                  This is definitely one of the best location for investment
-                  purpose in Dubai.Bahia Residence is the latest release in the
-                  larger Acacia Avenues development located between Sheikh Zayed
-                  Road and Beach Road just east of Media and Internet cities.
-                  The larger development is truly an outstanding investment
-                  opportunity as it is the only large scale development of its
-                  kind on Jumeirah land. With exceptionally limited supply and a
-                  massive demand for units in the area, this surely is an
-                  investor's choice. Minimalistic yet feature-filled, the villas
-                  and apartments of Acacia Avenues herald the arrival of
-                  contemporary urban living in Dubai. Inspired by chic,
-                  landscaped urban spaces, the architecture combines
-                  contemporary modes with regional cues to create a definitive
-                  living environment.
-                  <br />
-                  <br />
-                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
-                  <br />
-                  <ul>
-                    <li>Vast Open Spaces</li>
-                    <li>Ready to MoveIn Properties</li>
-                    <li>Easy Commute</li>
-                  </ul>
-                  <br />
-                  <br />
-                  Claren Towers are incredibly popular for many reasons,
-                  including their stylish modern finish throughout, that sets
-                  them apart from the usual Emaar styles in Downtown. As well as
-                  this, the towers are located in an area that cannot be
-                  compromised by construction in the area, meaning what you see
-                  is what you get. This is a good investment opportunity for
-                  those looking to invest in a unique and special apartment
-                  offering a strong net return on investments.
-                </span>
-              </div>
-            </HigherOrderPropertyComponent>}
-        />
-      </div>
+      <HigherOrderPropertyComponent main="Business Centers in UAE">
+        <div>
+        <h1 style={{ fontSize: "22px", color: "black" }}>Business Centers in UAE</h1>
+        <br/>
+        <span>
+        Hassle-free and affordable business setup solutions for new businesses
+        in Dubai Mainland Dubai offers a conducive environment for entrepreneurs
+        and investors to thrive. Business setup in Dubai mainland allows
+        companies to trade within the local markets as well as conduct business
+        internationally. Any company wanting to register in Dubai mainland must
+        do so through the Department of Economic Development (DED) in Dubai. To
+        save yourself time and money, it is recommended to complete your company
+        formation process through a business setup consultant. Shuraa Business
+        Setup has almost 20 years’ experience setting up businesses in Dubai. We
+        offer complete solutions for your business setup in Dubai mainland. Our
+        experienced business setup consultants in Dubai will provide you with
+        expert guidance and comprehensive support throughout your business setup
+        process. Shuraa Business Setup also provides a reliable UAE local
+        sponsor for any type of mainland business setup in Dubai. Our business
+        setup services in Dubai include company registration, UAE trade
+        licences, government approvals, and PRO services. At Shuraa, we
+        understand that the process of setting up business in Dubai could get
+        cumbersome and expensive without the right guidance, expertise, and
+        connections. We make the client’s requirements and business a top
+        priority and provide simple and effective business setup solutions at
+        competitive prices.
+        </span>
+        </div>
+      </HigherOrderPropertyComponent>
       <ContactUsComponent />
     </LayoutComponent>
   )
@@ -307,6 +46,4 @@ const PropertiesForRent = () => {
 
 export default PropertiesForRent
 
-const main = css`
-  margin: 2px 5%;
-`
+
