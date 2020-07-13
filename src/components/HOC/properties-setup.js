@@ -1,16 +1,13 @@
 import React from "react"
 import { css } from "@emotion/core"
-import LocationComponent from "../contactus"
 
 const PropertySetup = props => {
   return (
     <div>
       <div css={second}>
         <h4>{props.hetchfour}</h4>
-
         {props.children}
       </div>
-      
     </div>
   )
 }

@@ -16,9 +16,9 @@ const PropertiesForRent = () => {
       <br />
       <div css={main}>
         <TabsContainerComponent
-          labelone="Property For Rent One"
+          labelone="Business Center One"
           contentone={
-            <HigherOrderPropertyComponent hetchfour="Property For Rent One">
+            <HigherOrderPropertyComponent hetchfour="Business Center One">
               <div>
                 <span>
                   This is definitely one of the best location for investment
