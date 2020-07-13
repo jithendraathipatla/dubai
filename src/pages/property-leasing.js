@@ -198,7 +198,7 @@ const PropertiesForRent = () => {
                   living environment.
                   <br />
                   <br />
-                  <h1>Amenities:</h1>
+                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
                   <br />
                   <ul>
                     <li>Vast Open Spaces</li>

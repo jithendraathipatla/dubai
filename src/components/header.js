@@ -117,7 +117,7 @@ const Header = () => {
                 <Link to="/property-leasing" activeClassName="active">
                 Property Leasing
                 </Link>
-                <Link to="/property-business-centers" activeClassName="active">
+                <Link to="/properties-business-centers" activeClassName="active">
                  Business Centers
                 </Link>
                 <Link to="/properties-smart-desks" activeClassName="active">

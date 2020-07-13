@@ -308,5 +308,5 @@ const PropertiesForRent = () => {
 export default PropertiesForRent
 
 const main = css`
-  margin: 2px;
+  margin: 2px 5%;
 `
