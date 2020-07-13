@@ -108,19 +108,19 @@ const Header = () => {
               <a className="navbar-link is-arrowless">UAE Properties</a>
 
               <div className="navbar-dropdown" css={final}>
-                <Link to="/business-centers" activeClassName="active">
+                <Link to="/properties-for-sale" activeClassName="active">
                   Properties for Sale
                 </Link>
-                <Link to="/offices-for-rent" activeClassName="active">
+                <Link to="/properties-for-rent" activeClassName="active">
                   Properties for Rent
                 </Link>
-                <Link to="/smart-desks" activeClassName="active">
+                <Link to="/property-leasing" activeClassName="active">
                 Property Leasing
                 </Link>
-                <Link to="/business-centers" activeClassName="active">
+                <Link to="/property-business-centers" activeClassName="active">
                  Business Centers
                 </Link>
-                <Link to="/smart-desks" activeClassName="active">
+                <Link to="/properties-smart-desks" activeClassName="active">
                  Smart Desks
                 </Link>
               </div>
