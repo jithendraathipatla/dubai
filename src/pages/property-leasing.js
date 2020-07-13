@@ -11,7 +11,7 @@ const PropertiesForRent = () => {
     <LayoutComponent>
       <div style={{ marginTop: "6%" }}></div>
       <div style={{ textAlign: "center" }}>
-        <TitleComponent title="Comapany Setup in UAE Free Zones" />
+        <TitleComponent title="Property Leasing" />
       </div>
       <br />
       <div css={main}>
@@ -37,7 +37,7 @@ const PropertiesForRent = () => {
                   living environment.
                   <br />
                   <br />
-                  <h1>Amenities:</h1>
+                  <h1 style={{ fontSize: "22px", color: "black" }}>Amenities:</h1>
                   <br />
                   <ul>
                     <li>Vast Open Spaces</li>
