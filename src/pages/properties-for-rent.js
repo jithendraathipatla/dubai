@@ -45,10 +45,8 @@ const PropertiesForRent = () => {
                 a significant impact on the proceeding of transportation.
               </li>
               <li>
-                <FaDotCircle /> he Dubai South is widespread city over 145
-                square kilometers, with pre-built office, extensive warehouse,
-                shell & core outlets, customized office space, industrial
-                facilities and more
+                <FaDotCircle /> The Dubai South is widespread city over 145
+                square kilometers.
               </li>
               <li>
                 <FaDotCircle /> The most popular areas for buying a property for
