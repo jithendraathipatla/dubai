@@ -1,6 +1,6 @@
 import React from "react"
 import LayoutComponent from "../components/layout"
-import TitleComponent from "../components/title"
+import { FaDotCircle } from "react-icons/fa"
 import { css } from "@emotion/core"
 import ContactUsComponent from "../components/contactus"
 import HigherOrderPropertyComponent from "../components/HOC/properties-setup"
@@ -12,33 +12,87 @@ const PropertiesForRent = () => {
       <br />
       <HigherOrderPropertyComponent main="Business Centers in UAE">
         <div>
-        <h1 style={{ fontSize: "22px", color: "black" }}>Business Centers in UAE</h1>
-        <br/>
-        <span>
-        Hassle-free and affordable business setup solutions for new businesses
-        in Dubai Mainland Dubai offers a conducive environment for entrepreneurs
-        and investors to thrive. Business setup in Dubai mainland allows
-        companies to trade within the local markets as well as conduct business
-        internationally. Any company wanting to register in Dubai mainland must
-        do so through the Department of Economic Development (DED) in Dubai. To
-        save yourself time and money, it is recommended to complete your company
-        formation process through a business setup consultant. Shuraa Business
-        Setup has almost 20 years’ experience setting up businesses in Dubai. We
-        offer complete solutions for your business setup in Dubai mainland. Our
-        experienced business setup consultants in Dubai will provide you with
-        expert guidance and comprehensive support throughout your business setup
-        process. Shuraa Business Setup also provides a reliable UAE local
-        sponsor for any type of mainland business setup in Dubai. Our business
-        setup services in Dubai include company registration, UAE trade
-        licences, government approvals, and PRO services. At Shuraa, we
-        understand that the process of setting up business in Dubai could get
-        cumbersome and expensive without the right guidance, expertise, and
-        connections. We make the client’s requirements and business a top
-        priority and provide simple and effective business setup solutions at
-        competitive prices.
-        </span>
+          <h1 style={{ fontSize: "22px", color: "black" }}>
+            Business Centers in UAE
+          </h1>
+          <br />
+          <span>
+            This site is to help you to find the perfect home. Be able to search
+            thousands of available options for properties for rent at UAE. Find
+            all Properties for rent or searching in UAE. Search through a wide
+            range of Properties for rent in UAE The UAE earlier has different
+            Zones to offer for Property Rentals, and is an emerging gateway to
+            the Middle-East, Africa and South Asia, offering a diversified
+            market to the world. Company formation in Dubai South Free Zone
+            comes with an integrated urban ecosystem enabling business personnel
+            to develop substantial cost-effective business formulations and time
+            management in dealings. Business setup in Dubai South Freezone
+            delivers entrepreneurs with the propinquity to enjoy the recompenses
+            of the Dubai Al Maktoum International Airport and the Jebel Ali
+            Port. The freezone jurisdiction Dubai South or DS free zone also
+            offers a logistics corridor for the world with prominent
+            connectivity of land, sea and air. This has reduced the operational
+            costs and made a significant impact on the proceeding of
+            transportation. The Dubai South is widespread city over 145 square
+            kilometers, with pre-built office, extensive warehouse, shell & core
+            outlets, customized office space, industrial facilities and more.
+            Rental for residential or commercial properties in UAE is one of the
+            major sectors have always been and likely to boom further having
+            significant upside potential . The arrangement provides suitable
+            place for sectors such as aviation sector, retail industry,
+            hospitality ventures, food and beverage, information technology
+            enterprises as well as education institutes. The companies in the
+            region include, Clariant Gulf, Megachem Middle East, Consolidated
+            Shipping Logistics, Overseas Material Supply, Dune Corporation,
+            Utility Services, BMC Gulf and others. And Find Properties for rent
+            in United Arab Emirates. Here you can find the latest listings of
+            United Arab Emirates Property for rent. For More details Contact Us.
+            <br/>
+            <br/>
+            <h1 style={{ fontSize: "22px", color: "black" }}>Advantages:</h1>
+            <br />
+            <span>Here are some advantages of Business Centers in UAE</span>
+            <br />
+            <br />
+            <ul css={list}>
+              <li>
+                <FaDotCircle /> Consolidated Shipping Logistics
+              </li>
+              <li>
+                <FaDotCircle /> Overseas Material Supply
+              </li>
+              <li>
+                <FaDotCircle /> Dune Corporation
+              </li>
+              <li>
+                <FaDotCircle /> Utility Services and
+              </li>
+              <li>
+                <FaDotCircle /> BMC Gulf
+              </li>
+            </ul>
+            <br />
+            <br />
+            This has reduced the operational costs and made a significant impact
+            on the proceeding of transportation. The Dubai South is widespread
+            city over 145 square kilometers, with pre-built office, extensive
+            warehouse, shell & core outlets, customized office space, industrial
+            facilities and more. Rental for residential or commercial properties
+            in UAE is one of the major sectors have always been and likely to
+            boom further having significant upside potential . The arrangement
+            provides suitable place for sectors such as aviation sector, retail
+            industry, hospitality ventures, food and beverage, information
+            technology enterprises as well as education institutes. The
+            companies in the region include, Clariant Gulf, Megachem Middle
+            East, Consolidated Shipping Logistics, Overseas Material Supply,
+            Dune Corporation, Utility Services, BMC Gulf and others. And Find
+            Properties for rent in United Arab Emirates. Here you can find the
+            latest listings of United Arab Emirates Property for rent. For More
+            details Contact Us
+          </span>
         </div>
       </HigherOrderPropertyComponent>
+      <br/>
       <ContactUsComponent />
     </LayoutComponent>
   )
@@ -46,4 +100,9 @@ const PropertiesForRent = () => {
 
 export default PropertiesForRent
 
-
+const list = css`
+  svg {
+    font-size: 6px;
+    padding-top: -5px;
+  }
+`
