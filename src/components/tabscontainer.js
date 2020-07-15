@@ -45,8 +45,9 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     width: '100%',
     backgroundColor: theme.palette.background.paper,
-    letterSpacing: "0.9px",
+    letterSpacing: "0.9px !important",
     color:"back",
+    fontFamily: "inherit !important",
   },
 }));
 
@@ -66,6 +67,8 @@ export default function ScrollableTabsButtonAuto(props) {
           onChange={handleChange}
           indicatorColor="primary"
           textColor="black"
+          fontFamily="inherit"
+          letterSpacing="0.9px"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"

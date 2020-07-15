@@ -66,7 +66,7 @@ const lastl = css`
   text-align: center;
   background: #131A22;
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
   span {
     display: block;
   }
@@ -88,7 +88,7 @@ display: grid;
 grid-template-columns: 5fr 4fr 2fr 3fr;
 background: no-repeat padding-box #232F3E;
 color: #DDD;
-grid-gap: 104px;
+grid-gap: 80px;
 padding: 10px 50px;
   div{
     margin-left:10px;
@@ -96,7 +96,6 @@ padding: 10px 50px;
       margin-left:10px;
       li{
         line-height:26px;
-        font-size: 14px;
       }
     }
   }

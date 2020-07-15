@@ -699,9 +699,10 @@ pre tt:after {
 a.navbar-item,
 .navbar-link {
   color: black !important;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 38px;
+  font-weight:500;
 }
 
 
@@ -725,6 +726,13 @@ a.navbar-item,
 .navbar{
   height:70px !important;
 }
+
+.MuiTab-root {
+    font-family: inherit !important;
+    letter-spacing: 0.9px !important;
+    font-weight: 500;
+}
+
 
 @media screen and (min-width: 1024px){
 .navbar-dropdown {
